@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="52" version="2.0" version_name="Godot Engine v2.0.rc1.custom_build">
+	<ext_resource path="res://assets/gfx/tiles/tiles-02.png" type="Texture" index="0"></ext_resource>
+	<resource type="OccluderPolygon2D" path="local://21">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-16, -16, -16, 16, 16, 16, 16, -16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://59">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -10, 10, 10, -10, 10, -10, -10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://4">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-16, -12, -16, 16, 16, 16, 16, -12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://60">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -7.5, 10, 10, -10, 10, -10, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://5">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			12, -16, -16, -16, -16, 16, 12, 16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://40">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://6">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-16, -16, -16, 12, 16, 12, 16, -16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://41">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -10, 10, 7.5, -10, 7.5, -10, -10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://7">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-12, -16, 16, -16, 16, 16, -12, 16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://61">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -10, 10, 10, -7.5, 10, -7.5, -10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://1">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-16, -12, -16, 16, 12, 16, 12, -12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://42">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			7.5, -7.5, 7.5, 10, -10, 10, -10, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://2">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-16, 12, -16, -16, 12, -16, 12, 12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://43">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			7.5, -10, 7.5, 7.5, -10, 7.5, -10, -10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://3">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-12, -16, 16, -16, 16, 12, -12, 12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://62">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -10, 10, 7.5, -7.5, 7.5, -7.5, -10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://8">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-12, -12, 16, -12, 16, 16, -12, 16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://30">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -7.5, 10, 10, -7.5, 10, -7.5, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://9">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-16, -12, 16, -12, 16, 12, -16, 12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://63">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -7.5, 10, 7.5, -10, 7.5, -10, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://10">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-12, -16, -12, 16, 12, 16, 12, -16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://64">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			7.5, -10, 7.5, 10, -7.5, 10, -7.5, -10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://11">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-16, -12, 12, -12, 12, 12, -16, 12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://68">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			7.5, -7.5, 7.5, 7.5, -10, 7.5, -10, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://12">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-12, -16, -12, 12, 12, 12, 12, -16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://69">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			7.5, -10, 7.5, 7.5, -7.5, 7.5, -7.5, -10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://13">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			16, -12, -12, -12, -12, 12, 16, 12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://70">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -7.5, 10, 7.5, -7.5, 7.5, -7.5, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://14">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-12, -12, -12, 16, 12, 16, 12, -12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://67">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			7.5, -7.5, 7.5, 10, -7.5, 10, -7.5, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://15">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="4"> 			-12, -12, -12, 12, 12, 12, 12, -12 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://58">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			7.5, -7.5, 7.5, 7.5, -7.5, 7.5, -7.5, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://20">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="6"> 			-16, -16, 12, -16, 12, -12, 16, -12, 16, 16, -16, 16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://37">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://22">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="6"> 			-16, -16, -16, 16, 12, 16, 12, 12, 16, 12, 16, -16 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://23">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="6"> 			-16, -16, -16, 12, -12, 12, -12, 16, 16, 16, 16, -16 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://24">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="6"> 			-12, -16, -12, -12, -16, -12, -16, 16, 16, 16, 16, -16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://38">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://16">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			-16, -16, -16, 12, 12, -16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://71">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			-10, -10, 7.5, -10, -10, 7.5 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://17">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			-12, -16, 16, 12, 16, -16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://72">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			10, -10, 10, 7.5, -7.5, -10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://18">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			16, 16, 16, -12, -12, 16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://73">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			10, -7.5, 10, 10, -7.5, 10 </vector2_array>
+
+	</resource>
+	<resource type="OccluderPolygon2D" path="local://19">
+		<bool name="closed"> True </bool>
+		<int name="cull_mode"> 0 </int>
+		<vector2_array name="polygon" len="3"> 			-16, -12, -16, 16, 12, 16 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://74">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			7.5, 10, -10, 10, -10, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://56">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -10, 10, 10, -10, 10, -10, -10 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://57">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -10, 10, 10, -10, 10, -10, -10 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://26">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -7.5, 10, 10, -10, 10, -10, -7.5 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://29">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10, -10, 10, 10, -7.5, 10, -7.5, -10 </vector2_array>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="82">
+				<string> "Node2D" </string>
+				<string> "__meta__" </string>
+				<string> "Floor" </string>
+				<string> "transform/pos" </string>
+				<string> "texture" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "Sprite" </string>
+				<string> "WallPlain" </string>
+				<string> "LightOccluder2D" </string>
+				<string> "occluder" </string>
+				<string> "light_mask" </string>
+				<string> "StaticBody2D" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "CollisionPolygon2D" </string>
+				<string> "transform/scale" </string>
+				<string> "build_mode" </string>
+				<string> "polygon" </string>
+				<string> "shape_range" </string>
+				<string> "trigger" </string>
+				<string> "WallTop" </string>
+				<string> "WallRight" </string>
+				<string> "WallBottom" </string>
+				<string> "WallLeft" </string>
+				<string> "WallTopRight" </string>
+				<string> "WallRightBottom" </string>
+				<string> "WallBottomLeft" </string>
+				<string> "WallLeftTop" </string>
+				<string> "WallTopBottom" </string>
+				<string> "WallLeftRight" </string>
+				<string> "WallTopRightBottom" </string>
+				<string> "WallRightBottomLeft" </string>
+				<string> "WallBottomLeftTop" </string>
+				<string> "WallLeftTopRight" </string>
+				<string> "WallTopRightBottomLeft" </string>
+				<string> "WallCornerTopRight" </string>
+				<string> "WallCornerRightBottom" </string>
+				<string> "WallCornerBottomLeft" </string>
+				<string> "WallCornerLeftTop" </string>
+				<string> "WallDiagLeftTop" </string>
+				<string> "WallDiagTopRight" </string>
+				<string> "WallDiagRightBottom" </string>
+				<string> "WallDiagBottomLeft" </string>
+				<string> "StaticBody2D4" </string>
+				<string> "FrontWallPlain" </string>
+				<string> "FrontWallRight" </string>
+				<string> "FrontWallLeft" </string>
+				<string> "FrontWallRightLeft" </string>
+				<string> "Floor-02" </string>
+				<string> "Floor-03" </string>
+				<string> "Floor-04" </string>
+				<string> "Floor-05" </string>
+				<string> "WallPlain-02" </string>
+				<string> "WallPlain-03" </string>
+				<string> "WallPlain-04" </string>
+				<string> "WallPlain-05" </string>
+				<string> "WallTop-02" </string>
+				<string> "WallTop-03" </string>
+				<string> "WallTop-04" </string>
+				<string> "WallTop-05" </string>
+				<string> "WallRight-02" </string>
+				<string> "WallRight-03" </string>
+				<string> "WallRight-04" </string>
+				<string> "WallRight-05" </string>
+				<string> "WallBottom-02" </string>
+				<string> "WallBottom-03" </string>
+				<string> "WallBottom-04" </string>
+				<string> "WallBottom-05" </string>
+				<string> "WallLeft-02" </string>
+				<string> "WallLeft-03" </string>
+				<string> "WallLeft-04" </string>
+				<string> "WallLeft-05" </string>
+				<string> "WallTopRightBottomLeft-02" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 198 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="3658"> 				-1, -1, 0, 0, -1, 1, 1, 0, 0, 0, 0, 7, 2, -1, 4, 3, 1, 4, 2, 5, 3, 6, 4, 0, 0, 0, 7, 8, -1, 5, 3, 5, 4, 2, 5, 3, 6, 6, 1, 7, 0, 2, 0, 9, 9, -1, 2, 10, 8, 11, 9, 0, 2, 0, 12, 12, -1, 10, 13, 10, 14, 11, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 4, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 29, -1, 5, 3, 20, 4, 2, 5, 3, 6, 21, 1, 22, 0, 6, 0, 9, 9, -1, 2, 10, 23, 11, 9, 0, 6, 0, 12, 12, -1, 10, 13, 10, 14, 24, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 8, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 25, 27, 13, 28, 10, 0, 0, 0, 7, 30, -1, 5, 3, 26, 4, 2, 5, 3, 6, 27, 1, 28, 0, 10, 0, 9, 9, -1, 2, 10, 29, 11, 9, 0, 10, 0, 12, 12, -1, 10, 13, 10, 14, 30, 15, 31, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 12, 0, 23, 23, -1, 6, 3, 32, 24, 17, 25, 18, 26, 33, 27, 13, 28, 10, 0, 0, 0, 7, 31, -1, 5, 3, 34, 4, 2, 5, 3, 6, 35, 1, 36, 0, 14, 0, 9, 9, -1, 2, 10, 37, 11, 9, 0, 14, 0, 12, 12, -1, 10, 13, 10, 14, 38, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 16, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 39, 27, 13, 28, 10, 0, 0, 0, 7, 32, -1, 5, 3, 40, 4, 2, 5, 3, 6, 41, 1, 42, 0, 18, 0, 9, 9, -1, 2, 10, 43, 11, 9, 0, 18, 0, 12, 12, -1, 10, 13, 10, 14, 44, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 20, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 45, 27, 13, 28, 10, 0, 0, 0, 7, 33, -1, 5, 3, 46, 4, 2, 5, 3, 6, 47, 1, 48, 0, 22, 0, 9, 9, -1, 2, 10, 49, 11, 9, 0, 22, 0, 12, 12, -1, 10, 13, 10, 14, 50, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 24, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 51, 27, 13, 28, 10, 0, 0, 0, 7, 34, -1, 5, 3, 52, 4, 2, 5, 3, 6, 53, 1, 54, 0, 26, 0, 9, 9, -1, 2, 10, 55, 11, 9, 0, 26, 0, 12, 12, -1, 10, 13, 10, 14, 56, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 28, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 57, 27, 13, 28, 10, 0, 0, 0, 7, 35, -1, 5, 3, 58, 4, 2, 5, 3, 6, 59, 1, 60, 0, 30, 0, 9, 9, -1, 2, 10, 61, 11, 9, 0, 30, 0, 12, 12, -1, 10, 13, 10, 14, 62, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 32, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 63, 27, 13, 28, 10, 0, 0, 0, 7, 36, -1, 5, 3, 64, 4, 2, 5, 3, 6, 65, 1, 66, 0, 34, 0, 9, 9, -1, 2, 10, 67, 11, 9, 0, 34, 0, 12, 12, -1, 10, 13, 10, 14, 68, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 36, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 69, 27, 13, 28, 10, 0, 0, 0, 7, 37, -1, 5, 3, 70, 4, 2, 5, 3, 6, 71, 1, 72, 0, 38, 0, 9, 9, -1, 2, 10, 73, 11, 9, 0, 38, 0, 12, 12, -1, 10, 13, 10, 14, 74, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 40, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 75, 27, 13, 28, 10, 0, 0, 0, 7, 38, -1, 5, 3, 76, 4, 2, 5, 3, 6, 77, 1, 78, 0, 42, 0, 9, 9, -1, 2, 10, 79, 11, 9, 0, 42, 0, 12, 12, -1, 10, 13, 10, 14, 80, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 44, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 81, 27, 13, 28, 10, 0, 0, 0, 7, 39, -1, 5, 3, 82, 4, 2, 5, 3, 6, 83, 1, 84, 0, 46, 0, 9, 9, -1, 2, 10, 85, 11, 9, 0, 46, 0, 12, 12, -1, 10, 13, 10, 14, 86, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 48, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 87, 27, 13, 28, 10, 0, 0, 0, 7, 40, -1, 5, 3, 88, 4, 2, 5, 3, 6, 89, 1, 90, 0, 50, 0, 9, 9, -1, 2, 10, 91, 11, 9, 0, 50, 0, 12, 12, -1, 10, 13, 10, 14, 92, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 52, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 93, 27, 13, 28, 10, 0, 0, 0, 7, 41, -1, 5, 3, 94, 4, 2, 5, 3, 6, 95, 1, 96, 0, 54, 0, 9, 9, -1, 2, 10, 97, 11, 9, 0, 54, 0, 12, 12, -1, 10, 13, 10, 14, 98, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 56, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 99, 27, 13, 28, 10, 0, 0, 0, 7, 42, -1, 5, 3, 100, 4, 2, 5, 3, 6, 101, 1, 102, 0, 58, 0, 9, 9, -1, 2, 10, 103, 11, 9, 0, 58, 0, 12, 12, -1, 10, 13, 10, 14, 104, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 60, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 105, 27, 13, 28, 10, 0, 0, 0, 7, 43, -1, 5, 3, 106, 4, 2, 5, 3, 6, 107, 1, 108, 0, 62, 0, 9, 9, -1, 2, 10, 109, 11, 9, 0, 62, 0, 12, 12, -1, 10, 13, 10, 14, 110, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 64, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 111, 27, 13, 28, 10, 0, 0, 0, 7, 44, -1, 5, 3, 112, 4, 2, 5, 3, 6, 113, 1, 114, 0, 66, 0, 9, 9, -1, 2, 10, 115, 11, 9, 0, 66, 0, 12, 12, -1, 10, 13, 10, 14, 116, 15, 117, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 68, 0, 23, 23, -1, 6, 3, 118, 24, 17, 25, 18, 26, 119, 27, 13, 28, 10, 0, 0, 0, 7, 45, -1, 5, 3, 120, 4, 2, 5, 3, 6, 121, 1, 122, 0, 70, 0, 9, 9, -1, 2, 10, 123, 11, 9, 0, 70, 0, 12, 12, -1, 10, 13, 10, 14, 116, 15, 117, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 72, 0, 23, 23, -1, 6, 3, 118, 24, 17, 25, 18, 26, 119, 27, 13, 28, 10, 0, 0, 0, 7, 46, -1, 5, 3, 124, 4, 2, 5, 3, 6, 125, 1, 126, 0, 74, 0, 9, 9, -1, 2, 10, 127, 11, 9, 0, 74, 0, 12, 12, -1, 10, 13, 10, 14, 116, 15, 117, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 76, 0, 23, 23, -1, 6, 3, 118, 24, 17, 25, 18, 26, 119, 27, 13, 28, 10, 0, 0, 0, 7, 47, -1, 5, 3, 128, 4, 2, 5, 3, 6, 129, 1, 130, 0, 78, 0, 9, 9, -1, 2, 10, 131, 11, 9, 0, 78, 0, 12, 12, -1, 10, 13, 10, 14, 132, 15, 117, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 80, 0, 23, 23, -1, 6, 3, 118, 24, 17, 25, 18, 26, 119, 27, 13, 28, 10, 0, 0, 0, 7, 48, -1, 5, 3, 133, 4, 2, 5, 3, 6, 134, 1, 135, 0, 82, 0, 9, 9, -1, 2, 10, 136, 11, 9, 0, 82, 0, 12, 12, -1, 10, 13, 10, 14, 137, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 84, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 138, 27, 13, 28, 10, 0, 0, 0, 7, 49, -1, 5, 3, 139, 4, 2, 5, 3, 6, 140, 1, 141, 0, 86, 0, 9, 9, -1, 2, 10, 142, 11, 9, 0, 86, 0, 12, 12, -1, 10, 13, 10, 14, 143, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 88, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 144, 27, 13, 28, 10, 0, 0, 0, 7, 50, -1, 5, 3, 145, 4, 2, 5, 3, 6, 146, 1, 147, 0, 90, 0, 9, 9, -1, 2, 10, 148, 11, 9, 0, 90, 0, 12, 12, -1, 10, 13, 10, 14, 149, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 92, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 150, 27, 13, 28, 10, 0, 0, 0, 7, 51, -1, 5, 3, 151, 4, 2, 5, 3, 6, 152, 1, 153, 0, 94, 0, 9, 9, -1, 2, 10, 154, 11, 9, 0, 94, 0, 12, 52, -1, 10, 13, 10, 14, 155, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 96, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 156, 27, 13, 28, 10, 0, 0, 0, 7, 53, -1, 5, 3, 157, 4, 2, 5, 3, 6, 158, 1, 159, 0, 98, 0, 12, 12, -1, 10, 13, 10, 14, 160, 15, 161, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 99, 0, 23, 23, -1, 5, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 54, -1, 5, 3, 162, 4, 2, 5, 3, 6, 163, 1, 164, 0, 101, 0, 12, 12, -1, 10, 13, 10, 14, 160, 15, 161, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 102, 0, 23, 23, -1, 5, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 55, -1, 5, 3, 165, 4, 2, 5, 3, 6, 166, 1, 167, 0, 104, 0, 12, 12, -1, 10, 13, 10, 14, 160, 15, 161, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 105, 0, 23, 23, -1, 5, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 56, -1, 5, 3, 168, 4, 2, 5, 3, 6, 169, 1, 170, 0, 107, 0, 12, 12, -1, 10, 13, 10, 14, 160, 15, 161, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 108, 0, 23, 23, -1, 5, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 57, -1, 4, 3, 171, 4, 2, 5, 3, 6, 172, 0, 0, 0, 7, 58, -1, 4, 3, 173, 4, 2, 5, 3, 6, 174, 0, 0, 0, 7, 59, -1, 4, 3, 175, 4, 2, 5, 3, 6, 176, 0, 0, 0, 7, 60, -1, 4, 3, 177, 4, 2, 5, 3, 6, 178, 0, 0, 0, 7, 61, -1, 5, 3, 179, 4, 2, 5, 3, 6, 180, 1, 7, 0, 114, 0, 9, 9, -1, 2, 10, 8, 11, 9, 0, 114, 0, 12, 12, -1, 10, 13, 10, 14, 181, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 116, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 62, -1, 5, 3, 182, 4, 2, 5, 3, 6, 183, 1, 7, 0, 118, 0, 9, 9, -1, 2, 10, 8, 11, 9, 0, 118, 0, 12, 12, -1, 10, 13, 10, 14, 181, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 120, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 63, -1, 5, 3, 184, 4, 2, 5, 3, 6, 185, 1, 7, 0, 122, 0, 9, 9, -1, 2, 10, 8, 11, 9, 0, 122, 0, 12, 12, -1, 10, 13, 10, 14, 181, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 124, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 64, -1, 5, 3, 186, 4, 2, 5, 3, 6, 187, 1, 7, 0, 126, 0, 9, 9, -1, 2, 10, 8, 11, 9, 0, 126, 0, 12, 12, -1, 10, 13, 10, 14, 181, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 128, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 19, 27, 13, 28, 10, 0, 0, 0, 7, 65, -1, 5, 3, 188, 4, 2, 5, 3, 6, 189, 1, 22, 0, 130, 0, 9, 9, -1, 2, 10, 23, 11, 9, 0, 130, 0, 12, 12, -1, 10, 13, 10, 14, 190, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 132, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 25, 27, 13, 28, 10, 0, 0, 0, 7, 66, -1, 5, 3, 191, 4, 2, 5, 3, 6, 192, 1, 22, 0, 134, 0, 9, 9, -1, 2, 10, 23, 11, 9, 0, 134, 0, 12, 12, -1, 10, 13, 10, 14, 190, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 136, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 25, 27, 13, 28, 10, 0, 0, 0, 7, 67, -1, 5, 3, 193, 4, 2, 5, 3, 6, 194, 1, 22, 0, 138, 0, 9, 9, -1, 2, 10, 23, 11, 9, 0, 138, 0, 12, 12, -1, 10, 13, 10, 14, 190, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 140, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 25, 27, 13, 28, 10, 0, 0, 0, 7, 68, -1, 5, 3, 195, 4, 2, 5, 3, 6, 196, 1, 22, 0, 142, 0, 9, 9, -1, 2, 10, 23, 11, 9, 0, 142, 0, 12, 12, -1, 10, 13, 10, 14, 190, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 144, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 25, 27, 13, 28, 10, 0, 0, 0, 7, 69, -1, 5, 3, 197, 4, 2, 5, 3, 6, 198, 1, 28, 0, 146, 0, 9, 9, -1, 2, 10, 29, 11, 9, 0, 146, 0, 12, 12, -1, 10, 13, 10, 14, 30, 15, 31, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 148, 0, 23, 23, -1, 6, 3, 32, 24, 17, 25, 18, 26, 33, 27, 13, 28, 10, 0, 0, 0, 7, 70, -1, 5, 3, 199, 4, 2, 5, 3, 6, 200, 1, 28, 0, 150, 0, 9, 9, -1, 2, 10, 29, 11, 9, 0, 150, 0, 12, 12, -1, 10, 13, 10, 14, 30, 15, 31, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 152, 0, 23, 23, -1, 6, 3, 32, 24, 17, 25, 18, 26, 33, 27, 13, 28, 10, 0, 0, 0, 7, 71, -1, 5, 3, 201, 4, 2, 5, 3, 6, 202, 1, 28, 0, 154, 0, 9, 9, -1, 2, 10, 29, 11, 9, 0, 154, 0, 12, 12, -1, 10, 13, 10, 14, 30, 15, 31, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 156, 0, 23, 23, -1, 6, 3, 32, 24, 17, 25, 18, 26, 33, 27, 13, 28, 10, 0, 0, 0, 7, 72, -1, 5, 3, 203, 4, 2, 5, 3, 6, 204, 1, 28, 0, 158, 0, 9, 9, -1, 2, 10, 29, 11, 9, 0, 158, 0, 12, 12, -1, 10, 13, 10, 14, 30, 15, 31, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 160, 0, 23, 23, -1, 6, 3, 32, 24, 17, 25, 18, 26, 33, 27, 13, 28, 10, 0, 0, 0, 7, 73, -1, 5, 3, 205, 4, 2, 5, 3, 6, 206, 1, 36, 0, 162, 0, 9, 9, -1, 2, 10, 37, 11, 9, 0, 162, 0, 12, 12, -1, 10, 13, 10, 14, 38, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 164, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 39, 27, 13, 28, 10, 0, 0, 0, 7, 74, -1, 5, 3, 207, 4, 2, 5, 3, 6, 208, 1, 36, 0, 166, 0, 9, 9, -1, 2, 10, 37, 11, 9, 0, 166, 0, 12, 12, -1, 10, 13, 10, 14, 38, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 168, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 39, 27, 13, 28, 10, 0, 0, 0, 7, 75, -1, 5, 3, 209, 4, 2, 5, 3, 6, 210, 1, 36, 0, 170, 0, 9, 9, -1, 2, 10, 37, 11, 9, 0, 170, 0, 12, 12, -1, 10, 13, 10, 14, 38, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 172, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 39, 27, 13, 28, 10, 0, 0, 0, 7, 76, -1, 5, 3, 211, 4, 2, 5, 3, 6, 212, 1, 36, 0, 174, 0, 9, 9, -1, 2, 10, 37, 11, 9, 0, 174, 0, 12, 12, -1, 10, 13, 10, 14, 38, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 176, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 39, 27, 13, 28, 10, 0, 0, 0, 7, 77, -1, 5, 3, 213, 4, 2, 5, 3, 6, 214, 1, 42, 0, 178, 0, 9, 9, -1, 2, 10, 43, 11, 9, 0, 178, 0, 12, 12, -1, 10, 13, 10, 14, 215, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 180, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 45, 27, 13, 28, 10, 0, 0, 0, 7, 78, -1, 5, 3, 216, 4, 2, 5, 3, 6, 217, 1, 42, 0, 182, 0, 9, 9, -1, 2, 10, 43, 11, 9, 0, 182, 0, 12, 12, -1, 10, 13, 10, 14, 215, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 184, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 45, 27, 13, 28, 10, 0, 0, 0, 7, 79, -1, 5, 3, 218, 4, 2, 5, 3, 6, 219, 1, 42, 0, 186, 0, 9, 9, -1, 2, 10, 43, 11, 9, 0, 186, 0, 12, 12, -1, 10, 13, 10, 14, 215, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 188, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 45, 27, 13, 28, 10, 0, 0, 0, 7, 80, -1, 5, 3, 220, 4, 2, 5, 3, 6, 221, 1, 42, 0, 190, 0, 9, 9, -1, 2, 10, 43, 11, 9, 0, 190, 0, 12, 12, -1, 10, 13, 10, 14, 215, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 192, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 45, 27, 13, 28, 10, 0, 0, 0, 7, 81, -1, 5, 3, 222, 4, 2, 5, 3, 6, 223, 1, 108, 0, 194, 0, 9, 9, -1, 2, 10, 109, 11, 9, 0, 194, 0, 12, 12, -1, 10, 13, 10, 14, 110, 15, 12, 16, 10, 17, 9, 18, 9, 19, 13, 20, 14, 21, 15, 22, 14, 0, 196, 0, 23, 23, -1, 6, 3, 16, 24, 17, 25, 18, 26, 111, 27, 13, 28, 10, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="224" shared="false">
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+				</dictionary>
+				<vector2> 16, 16 </vector2>
+				<resource  external="0">  </resource>
+				<bool> True </bool>
+				<rect2> 0, 40, 32, 32 </rect2>
+				<vector2> 56, 16 </vector2>
+				<rect2> 40, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://21">  </resource>
+				<int> 1 </int>
+				<bool> False </bool>
+				<resource  resource_type="Shape2D" path="local://59">  </resource>
+				<matrix32> 1.6, -0, 0, 1.6, 1.43051e-006, 2.38419e-007 </matrix32>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<real> 1 </real>
+				<vector2> 1.43051e-006, 2.38419e-007 </vector2>
+				<vector2> 1.6, 1.6 </vector2>
+				<int> 0 </int>
+				<vector2_array  len="4"> 					10, -10, 10, 10, -10, 10, -10, -10 </vector2_array>
+				<vector2> 96, 16 </vector2>
+				<rect2> 80, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://4">  </resource>
+				<resource  resource_type="Shape2D" path="local://60">  </resource>
+				<vector2_array  len="4"> 					10, -7.5, 10, 10, -10, 10, -10, -7.5 </vector2_array>
+				<vector2> 136, 16 </vector2>
+				<rect2> 120, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://5">  </resource>
+				<resource  resource_type="Shape2D" path="local://40">  </resource>
+				<matrix32> 1.6, -0, 0, 1.6, -3.6, -0.4 </matrix32>
+				<vector2> -3.6, -0.4 </vector2>
+				<vector2_array  len="4"> 					9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 </vector2_array>
+				<vector2> 176, 16 </vector2>
+				<rect2> 160, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://6">  </resource>
+				<resource  resource_type="Shape2D" path="local://41">  </resource>
+				<vector2_array  len="4"> 					10, -10, 10, 7.5, -10, 7.5, -10, -10 </vector2_array>
+				<vector2> 216, 16 </vector2>
+				<rect2> 200, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://7">  </resource>
+				<resource  resource_type="Shape2D" path="local://61">  </resource>
+				<vector2_array  len="4"> 					10, -10, 10, 10, -7.5, 10, -7.5, -10 </vector2_array>
+				<vector2> 256, 16 </vector2>
+				<rect2> 240, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://1">  </resource>
+				<resource  resource_type="Shape2D" path="local://42">  </resource>
+				<vector2_array  len="4"> 					7.5, -7.5, 7.5, 10, -10, 10, -10, -7.5 </vector2_array>
+				<vector2> 296, 16 </vector2>
+				<rect2> 280, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://2">  </resource>
+				<resource  resource_type="Shape2D" path="local://43">  </resource>
+				<vector2_array  len="4"> 					7.5, -10, 7.5, 7.5, -10, 7.5, -10, -10 </vector2_array>
+				<vector2> 336, 16 </vector2>
+				<rect2> 320, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://3">  </resource>
+				<resource  resource_type="Shape2D" path="local://62">  </resource>
+				<vector2_array  len="4"> 					10, -10, 10, 7.5, -7.5, 7.5, -7.5, -10 </vector2_array>
+				<vector2> 376, 16 </vector2>
+				<rect2> 360, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://8">  </resource>
+				<resource  resource_type="Shape2D" path="local://30">  </resource>
+				<vector2_array  len="4"> 					10, -7.5, 10, 10, -7.5, 10, -7.5, -7.5 </vector2_array>
+				<vector2> 416, 16 </vector2>
+				<rect2> 400, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://9">  </resource>
+				<resource  resource_type="Shape2D" path="local://63">  </resource>
+				<vector2_array  len="4"> 					10, -7.5, 10, 7.5, -10, 7.5, -10, -7.5 </vector2_array>
+				<vector2> 456, 16 </vector2>
+				<rect2> 440, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://10">  </resource>
+				<resource  resource_type="Shape2D" path="local://64">  </resource>
+				<vector2_array  len="4"> 					7.5, -10, 7.5, 10, -7.5, 10, -7.5, -10 </vector2_array>
+				<vector2> 496, 16 </vector2>
+				<rect2> 480, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://11">  </resource>
+				<resource  resource_type="Shape2D" path="local://68">  </resource>
+				<vector2_array  len="4"> 					7.5, -7.5, 7.5, 7.5, -10, 7.5, -10, -7.5 </vector2_array>
+				<vector2> 536, 16 </vector2>
+				<rect2> 520, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://12">  </resource>
+				<resource  resource_type="Shape2D" path="local://69">  </resource>
+				<vector2_array  len="4"> 					7.5, -10, 7.5, 7.5, -7.5, 7.5, -7.5, -10 </vector2_array>
+				<vector2> 576, 16 </vector2>
+				<rect2> 560, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://13">  </resource>
+				<resource  resource_type="Shape2D" path="local://70">  </resource>
+				<vector2_array  len="4"> 					10, -7.5, 10, 7.5, -7.5, 7.5, -7.5, -7.5 </vector2_array>
+				<vector2> 616, 16 </vector2>
+				<rect2> 600, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://14">  </resource>
+				<resource  resource_type="Shape2D" path="local://67">  </resource>
+				<vector2_array  len="4"> 					7.5, -7.5, 7.5, 10, -7.5, 10, -7.5, -7.5 </vector2_array>
+				<vector2> 656, 16 </vector2>
+				<rect2> 640, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://15">  </resource>
+				<resource  resource_type="Shape2D" path="local://58">  </resource>
+				<vector2_array  len="4"> 					7.5, -7.5, 7.5, 7.5, -7.5, 7.5, -7.5, -7.5 </vector2_array>
+				<vector2> 696, 16 </vector2>
+				<rect2> 680, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://20">  </resource>
+				<resource  resource_type="Shape2D" path="local://37">  </resource>
+				<matrix32> 1.6, -0, 0, 1.6, -2, -4 </matrix32>
+				<vector2> -2, -4 </vector2>
+				<vector2_array  len="4"> 					11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 </vector2_array>
+				<vector2> 736, 16 </vector2>
+				<rect2> 720, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://22">  </resource>
+				<vector2> 776, 16 </vector2>
+				<rect2> 760, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://23">  </resource>
+				<vector2> 816, 16 </vector2>
+				<rect2> 800, 40, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://24">  </resource>
+				<resource  resource_type="Shape2D" path="local://38">  </resource>
+				<vector2> 856, 16 </vector2>
+				<rect2> 840, 0, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://16">  </resource>
+				<resource  resource_type="Shape2D" path="local://71">  </resource>
+				<vector2_array  len="3"> 					-10, -10, 7.5, -10, -10, 7.5 </vector2_array>
+				<vector2> 896, 16 </vector2>
+				<rect2> 880, 0, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://17">  </resource>
+				<resource  resource_type="Shape2D" path="local://72">  </resource>
+				<vector2_array  len="3"> 					10, -10, 10, 7.5, -7.5, -10 </vector2_array>
+				<vector2> 936, 16 </vector2>
+				<rect2> 920, 0, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://18">  </resource>
+				<resource  resource_type="Shape2D" path="local://73">  </resource>
+				<vector2_array  len="3"> 					10, -7.5, 10, 10, -7.5, 10 </vector2_array>
+				<vector2> 976, 16 </vector2>
+				<rect2> 960, 0, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="OccluderPolygon2D" path="local://19">  </resource>
+				<resource  resource_type="Shape2D" path="local://74">  </resource>
+				<vector2_array  len="3"> 					7.5, 10, -10, 10, -10, -7.5 </vector2_array>
+				<vector2> 16, 216 </vector2>
+				<rect2> 0, 280, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="Shape2D" path="local://56">  </resource>
+				<matrix32> 1.6, -0, 0, 1.6, 0, 0 </matrix32>
+				<vector2> 56, 216 </vector2>
+				<rect2> 40, 280, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 96, 216 </vector2>
+				<rect2> 80, 280, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 136, 216 </vector2>
+				<rect2> 120, 280, 32, 32 </rect2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 16, 56 </vector2>
+				<rect2> 0, 80, 32, 32 </rect2>
+				<vector2> 16, 96 </vector2>
+				<rect2> 0, 120, 32, 32 </rect2>
+				<vector2> 16, 136 </vector2>
+				<rect2> 0, 160, 32, 32 </rect2>
+				<vector2> 16, 176 </vector2>
+				<rect2> 0, 200, 32, 32 </rect2>
+				<vector2> 56, 56 </vector2>
+				<rect2> 40, 80, 32, 32 </rect2>
+				<resource  resource_type="Shape2D" path="local://57">  </resource>
+				<vector2> 56, 96 </vector2>
+				<rect2> 40, 120, 32, 32 </rect2>
+				<vector2> 56, 136 </vector2>
+				<rect2> 40, 160, 32, 32 </rect2>
+				<vector2> 56, 176 </vector2>
+				<rect2> 40, 200, 32, 32 </rect2>
+				<vector2> 96, 56 </vector2>
+				<rect2> 80, 80, 32, 32 </rect2>
+				<resource  resource_type="Shape2D" path="local://26">  </resource>
+				<vector2> 96, 96 </vector2>
+				<rect2> 80, 120, 32, 32 </rect2>
+				<vector2> 96, 136 </vector2>
+				<rect2> 80, 160, 32, 32 </rect2>
+				<vector2> 96, 176 </vector2>
+				<rect2> 80, 200, 32, 32 </rect2>
+				<vector2> 136, 56 </vector2>
+				<rect2> 120, 80, 32, 32 </rect2>
+				<vector2> 136, 96 </vector2>
+				<rect2> 120, 120, 32, 32 </rect2>
+				<vector2> 136, 136 </vector2>
+				<rect2> 120, 160, 32, 32 </rect2>
+				<vector2> 136, 176 </vector2>
+				<rect2> 120, 200, 32, 32 </rect2>
+				<vector2> 176, 56 </vector2>
+				<rect2> 160, 80, 32, 32 </rect2>
+				<vector2> 176, 96 </vector2>
+				<rect2> 160, 120, 32, 32 </rect2>
+				<vector2> 176, 136 </vector2>
+				<rect2> 160, 160, 32, 32 </rect2>
+				<vector2> 176, 176 </vector2>
+				<rect2> 160, 200, 32, 32 </rect2>
+				<vector2> 216, 56 </vector2>
+				<rect2> 200, 80, 32, 32 </rect2>
+				<resource  resource_type="Shape2D" path="local://29">  </resource>
+				<vector2> 216, 96 </vector2>
+				<rect2> 200, 120, 32, 32 </rect2>
+				<vector2> 216, 136 </vector2>
+				<rect2> 200, 160, 32, 32 </rect2>
+				<vector2> 216, 176 </vector2>
+				<rect2> 200, 200, 32, 32 </rect2>
+				<vector2> 656, 56 </vector2>
+				<rect2> 640, 80, 32, 32 </rect2>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
