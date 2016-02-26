@@ -1,4 +1,3 @@
-
 extends KinematicBody2D
 
 var speed     = 2
@@ -12,11 +11,21 @@ func _fixed_process(delta):
 	if direction.x != 0 or direction.y != 0:
 		move((direction.normalized() * speed))
 		#var pos = get_pos()
-		#set_pos(pos + (direction.normalized() * speed)) # * delta))
-		
+		#set_pos(pos + (direction.normalized() * speed)) # * delta))q
+	# Scroll
+	var gpos = get_global_pos()
+	if gpos.x < 32:
+		get_parent().move_local_x(4)
+	elif gpos.x > 768:
+		get_parent().move_local_x(-4)
+	if gpos.y < 32:
+		get_parent().move_local_y(4)
+	elif gpos.y > 568:
+		get_parent().move_local_y(-4)
+
 func _input(event):
 	if event.type in [InputEvent.KEY, InputEvent.JOYSTICK_BUTTON]:
-		print(event)
+		#print(event)
 		var rad_angle
 		if event.is_action_pressed("ui_left") and direction.x != -1:
 			direction.x = -1

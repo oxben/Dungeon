@@ -4,8 +4,10 @@ var speed     = 8
 var direction = Vector2(0, 0)
 var lifetime  = 2
 var exploded  = false
+var damage    = 5
 
 func _ready():
+	add_to_group("enemy")
 	set_fixed_process(true)
 
 func _fixed_process(delta):
@@ -13,6 +15,8 @@ func _fixed_process(delta):
 	if lifetime <= 0 : #or is_colliding():
 		queue_free()
 	elif not exploded and is_colliding():
+		if get_collider().is_in_group("enemy"):
+			get_collider().hit(damage)
 		exploded = true
 		speed = 0
 		# Prevent any further collisions
