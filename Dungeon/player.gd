@@ -69,6 +69,6 @@ func _input(event):
 			fireball.direction = Vector2(0, -1).rotated(get_rot())
 			fireball.set_global_pos(get_node("FireballEmitter").get_global_pos())
 			get_tree().get_root().add_child(fireball)
-
-
-
+		elif event.is_action_pressed("ui_accept"):
+			if is_colliding() and get_collider().is_in_group("activable"):
+				get_collider().activate()
