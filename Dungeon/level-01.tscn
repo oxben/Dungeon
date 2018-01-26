@@ -1,0 +1,209 @@
+[gd_scene load_steps=18 format=1]
+
+[ext_resource path="res://level-01.gd" type="Script" id=1]
+[ext_resource path="res://assets/gfx/tileset-02.tres" type="TileSet" id=2]
+[ext_resource path="res://assets/gfx/tileset-shadows.tres" type="TileSet" id=3]
+[ext_resource path="res://reine-indienne.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/gfx/noise.png" type="Texture" id=5]
+[ext_resource path="res://invader.tscn" type="PackedScene" id=6]
+[ext_resource path="res://karadoc.tscn" type="PackedScene" id=7]
+[ext_resource path="res://chest.tscn" type="PackedScene" id=8]
+[ext_resource path="res://player.gd" type="Script" id=9]
+[ext_resource path="res://assets/gfx/missile.png" type="Texture" id=10]
+[ext_resource path="res://assets/gfx/missile-shadow.png" type="Texture" id=11]
+[ext_resource path="res://assets/gfx/light-mask.png" type="Texture" id=12]
+[ext_resource path="res://assets/gfx/red-potion.png" type="Texture" id=13]
+[ext_resource path="res://assets/gfx/red-potion-small.png" type="Texture" id=14]
+
+[sub_resource type="CanvasItemShader" id=1]
+
+_code = {
+"fragment": "uniform texture Texture;
+vec3 c = texscreen(SCREEN_UV);
+vec2 pix = mod(vec2((SCREEN_UV.x * 400.0), (SCREEN_UV.y * 400.0)), vec2(3.0, 2.0));
+
+if (pix.y < 1.0) {
+	//COLOR.rgb = c * vec3(0.7, 0.7, 0.7);
+	COLOR.rgb = c * tex(Texture, SCREEN_UV).rgb;
+} else {
+	COLOR.rgb = c;
+}
+",
+"fragment_ofs": 0,
+"light": "",
+"light_ofs": 0,
+"vertex": "",
+"vertex_ofs": 0
+}
+
+[sub_resource type="CanvasItemMaterial" id=2]
+
+shader/shader = SubResource( 1 )
+shader/shading_mode = 0
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 7.92883, 8.02701 )
+
+[node name="Node2D" type="Node2D"]
+
+script/script = ExtResource( 1 )
+__meta__ = {
+"__editor_plugin_screen__": "2D"
+}
+
+[node name="WallMap" type="TileMap" parent="."]
+
+transform/pos = Vector2( 0, 32 )
+mode = 0
+tile_set = ExtResource( 2 )
+cell/size = Vector2( 32, 32 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 0
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( -65536, 22, -65535, 4, -65534, 45, -65533, 46, -65532, 4, -65531, 47, -65530, 48, -65529, 4, -65528, 45, -65527, 4, -65526, 23, 0, 42, 1, 25, 2, 26, 3, 27, 4, 25, 5, 25, 6, 25, 7, 25, 8, 25, 9, 26, 10, 52, 65536, 41, 65537, 31, 65538, 0, 65539, 0, 65540, 29, 65541, 0, 65542, 0, 65543, 0, 65544, 31, 65545, 0, 65546, 5, 131072, 43, 131073, 0, 131074, 0, 131075, 0, 131076, 0, 131077, 0, 131078, 32, 131079, 0, 131080, 0, 131081, 0, 131082, 49, 131085, 22, 131086, 47, 131087, 4, 131088, 45, 131089, 4, 131090, 4, 131091, 47, 131092, 46, 131093, 23, 196608, 3, 196609, 32, 196610, 0, 196611, 29, 196612, 0, 196613, 0, 196614, 0, 196615, 0, 196616, 29, 196617, 0, 196618, 8, 196619, 4, 196620, 23, 196621, 44, 196622, 27, 196623, 25, 196624, 25, 196625, 25, 196626, 25, 196627, 25, 196628, 26, 196629, 50, 262144, 41, 262145, 0, 262146, 0, 262147, 0, 262148, 0, 262149, 29, 262150, 30, 262151, 0, 262152, 0, 262153, 0, 262154, 27, 262155, 25, 262156, 51, 262157, 43, 262158, 0, 262159, 30, 262160, 0, 262161, 0, 262162, 0, 262163, 0, 262164, 0, 262165, 5, 327680, 3, 327681, 0, 327682, 29, 327683, 30, 327684, 0, 327685, 0, 327686, 0, 327687, 0, 327688, 32, 327689, 0, 327690, 0, 327691, 31, 327692, 8, 327693, 7, 327694, 0, 327695, 0, 327696, 14, 327697, 10, 327698, 6, 327699, 0, 327700, 29, 327701, 49, 393216, 21, 393217, 2, 393218, 37, 393219, 38, 393220, 39, 393221, 39, 393222, 6, 393223, 29, 393224, 0, 393225, 0, 393226, 0, 393227, 0, 393228, 27, 393229, 26, 393230, 29, 393231, 0, 393232, 27, 393233, 25, 393234, 11, 393235, 0, 393236, 0, 393237, 50, 458758, 41, 458759, 0, 458760, 0, 458761, 29, 458762, 0, 458763, 31, 458764, 0, 458765, 0, 458766, 32, 458767, 0, 458768, 29, 458769, 0, 458770, 11, 458771, 32, 458772, 0, 458773, 5, 524294, 3, 524295, 31, 524296, 0, 524297, 0, 524298, 0, 524299, 0, 524300, 9, 524301, 6, 524302, 0, 524303, 0, 524304, 14, 524305, 10, 524306, 7, 524307, 0, 524308, 0, 524309, 5, 589830, 21, 589831, 12, 589832, 0, 589833, 0, 589834, 0, 589835, 14, 589836, 23, 589837, 43, 589838, 0, 589839, 31, 589840, 27, 589841, 25, 589842, 26, 589843, 0, 589844, 29, 589845, 51, 655366, 3, 655367, 26, 655368, 0, 655369, 30, 655370, 0, 655371, 27, 655372, 52, 655373, 42, 655374, 0, 655375, 0, 655376, 0, 655377, 30, 655378, 0, 655379, 0, 655380, 0, 655381, 5, 720902, 43, 720903, 0, 720904, 30, 720905, 0, 720906, 29, 720907, 0, 720908, 5, 720909, 21, 720910, 38, 720911, 37, 720912, 6, 720913, 0, 720914, 0, 720915, 9, 720916, 38, 720917, 24, 786438, 41, 786439, 0, 786440, 32, 786441, 16, 786442, 0, 786443, 0, 786444, 5, 786445, 35, 786446, 33, 786447, 36, 786448, 42, 786449, 0, 786450, 30, 786451, 5, 851974, 3, 851975, 0, 851976, 31, 851977, 28, 851978, 0, 851979, 0, 851980, 49, 851981, 36, 851982, 1, 851983, 33, 851984, 43, 851985, 31, 851986, 0, 851987, 50, 917510, 42, 917511, 29, 917512, 0, 917513, 0, 917514, 0, 917515, 29, 917516, 5, 917517, 35, 917518, 34, 917519, 33, 917520, 3, 917521, 0, 917522, 31, 917523, 5, 983046, 41, 983047, 0, 983048, 0, 983049, 53, 983050, 0, 983051, 0, 983052, 8, 983053, 4, 983054, 47, 983055, 46, 983056, 7, 983057, 0, 983058, 0, 983059, 5, 1048582, 3, 1048583, 0, 1048584, 32, 1048585, 28, 1048586, 30, 1048587, 0, 1048588, 27, 1048589, 25, 1048590, 25, 1048591, 25, 1048592, 26, 1048593, 29, 1048594, 0, 1048595, 49, 1114118, 44, 1114119, 0, 1114120, 31, 1114121, 0, 1114122, 0, 1114123, 29, 1114124, 0, 1114125, 32, 1114126, 0, 1114127, 0, 1114128, 0, 1114129, 0, 1114130, 0, 1114131, 5, 1179654, 3, 1179655, 0, 1179656, 0, 1179657, 16, 1179658, 0, 1179659, 0, 1179660, 9, 1179661, 39, 1179662, 2, 1179663, 39, 1179664, 2, 1179665, 40, 1179666, 38, 1179667, 24, 1245190, 42, 1245191, 29, 1245192, 0, 1245193, 28, 1245194, 30, 1245195, 0, 1245196, 5, 1310726, 44, 1310727, 0, 1310728, 0, 1310729, 0, 1310730, 0, 1310731, 0, 1310732, 5, 1376262, 21, 1376263, 2, 1376264, 40, 1376265, 2, 1376266, 37, 1376267, 2, 1376268, 24 )
+
+[node name="ShadowMap" type="TileMap" parent="."]
+
+transform/pos = Vector2( 0, 32 )
+mode = 0
+tile_set = ExtResource( 3 )
+cell/size = Vector2( 32, 32 )
+cell/quadrant_size = 16
+cell/custom_transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+cell/half_offset = 2
+cell/tile_origin = 0
+cell/y_sort = false
+collision/use_kinematic = false
+collision/friction = 1.0
+collision/bounce = 0.0
+collision/layers = 1
+collision/mask = 1
+occluder/light_mask = 1
+tile_data = IntArray( 65537, 4, 65538, 0, 65539, 0, 65540, 0, 65541, 0, 65542, 0, 65543, 0, 65544, 0, 65545, 0, 131073, 2, 196609, 2, 262145, 2, 262158, 4, 262159, 0, 262160, 0, 262161, 0, 262162, 0, 262163, 0, 262164, 0, 327681, 2, 327690, 1, 327691, 0, 327694, 2, 327699, 3, 393223, 3, 393230, 2, 393235, 2, 458759, 2, 458764, 1, 458765, 0, 458766, 5, 458768, 1, 458769, 0, 458771, 2, 524295, 2, 524302, 3, 524307, 2, 589838, 2, 589843, 2, 655368, 3, 655374, 2, 655376, 1, 655377, 0, 655378, 0, 655379, 5, 720903, 4, 720904, 5, 720907, 1, 720913, 3, 786439, 2, 786449, 2, 851975, 2, 851978, 3, 851985, 2, 917511, 2, 917513, 1, 917514, 5, 917521, 2, 983047, 2, 983057, 2, 1048583, 2, 1048586, 3, 1048593, 2, 1114119, 2, 1114121, 1, 1114122, 5, 1114124, 1, 1114125, 0, 1114126, 0, 1114127, 0, 1114128, 0, 1114129, 5, 1179655, 2, 1245191, 2, 1245194, 3, 1310727, 2, 1310729, 1, 1310730, 5 )
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+
+color = Color( 0.175781, 0.175781, 0.175781, 1 )
+
+[node name="ReineIndienne" parent="." instance=ExtResource( 4 )]
+
+transform/pos = Vector2( 294.851, 257.384 )
+
+[node name="ScanlinesShader" type="TextureFrame" parent="."]
+
+visibility/visible = false
+material/material = SubResource( 2 )
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 1024.0
+margin/bottom = 1024.0
+texture = ExtResource( 5 )
+stretch_mode = 0
+
+[node name="Invader-01" parent="." instance=ExtResource( 6 )]
+
+transform/pos = Vector2( 578.393, 445.429 )
+
+[node name="Invader-02" parent="." instance=ExtResource( 6 )]
+
+transform/pos = Vector2( 282.549, 107.479 )
+
+[node name="Invader-03" parent="." instance=ExtResource( 6 )]
+
+transform/pos = Vector2( 353.463, 422.161 )
+
+[node name="Invader-04" parent="." instance=ExtResource( 6 )]
+
+transform/pos = Vector2( 260.388, 549.585 )
+
+[node name="KinematicBody2D" parent="." instance=ExtResource( 7 )]
+
+transform/pos = Vector2( 81.9937, 115.234 )
+
+[node name="KinematicBody2D 2" parent="." instance=ExtResource( 8 )]
+
+transform/pos = Vector2( 179.785, 61.6974 )
+
+[node name="Missile" type="KinematicBody2D" parent="."]
+
+editor/display_folded = true
+transform/pos = Vector2( 133.787, 155.84 )
+input/pickable = false
+shapes/0/shape = SubResource( 3 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, -2.21283 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+collision/margin = 0.08
+script/script = ExtResource( 9 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Missile"]
+
+transform/pos = Vector2( 0, -2.21283 )
+shape = SubResource( 3 )
+trigger = false
+_update_shape_index = 0
+
+[node name="Sprite" type="Sprite" parent="Missile"]
+
+texture = ExtResource( 10 )
+
+[node name="Shadow" type="Sprite" parent="Missile/Sprite"]
+
+visibility/opacity = 0.7
+visibility/behind_parent = true
+transform/pos = Vector2( 2, 2 )
+texture = ExtResource( 11 )
+
+[node name="Light2D" type="Light2D" parent="Missile/Sprite"]
+
+visibility/behind_parent = true
+enabled = true
+editor_only = false
+texture = ExtResource( 12 )
+offset = Vector2( 0, 0 )
+scale = 1.5
+color = Color( 0.705811, 0.714251, 0.921875, 1 )
+energy = 1.0
+mode = 0
+range/height = 0.0
+range/z_min = -1024
+range/z_max = 1024
+range/layer_min = 0
+range/layer_max = 0
+range/item_mask = 1
+shadow/enabled = true
+shadow/color = Color( 0, 0, 0, 0 )
+shadow/buffer_size = 2048
+shadow/esm_multiplier = 80.0
+shadow/item_mask = 1
+
+[node name="FireballEmitter" type="Position2D" parent="Missile"]
+
+transform/pos = Vector2( 0, -20 )
+
+[node name="Potion" type="Sprite" parent="."]
+
+transform/pos = Vector2( 63.7617, 202.633 )
+texture = ExtResource( 13 )
+
+[node name="SmallPotion" type="Sprite" parent="."]
+
+transform/pos = Vector2( 109.176, 199.843 )
+texture = ExtResource( 14 )
+
+

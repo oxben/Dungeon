@@ -1,0 +1,20 @@
+[gd_resource type="SampleLibrary" load_steps=3 format=1]
+
+[ext_resource path="res://assets/sfx/chest-close-1.wav" type="Sample" id=1]
+[ext_resource path="res://assets/sfx/chest-open.wav" type="Sample" id=2]
+
+[resource]
+
+samples/chest-close = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 1 )
+}
+samples/chest-open = {
+"db": 0.0,
+"pitch": 1.0,
+"priority": 0,
+"sample": ExtResource( 2 )
+}
+

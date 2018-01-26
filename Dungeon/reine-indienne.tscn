@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://reine-indienne.gd" type="Script" id=1]
+[ext_resource path="res://assets/gfx/reine-indienne.png" type="Texture" id=2]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+
+custom_solver_bias = 0.0
+points = Vector2Array( 8, -24, 8, 16, -8, 16, -8, -24 )
+
+[node name="ReineIndienne" type="KinematicBody2D"]
+
+input/pickable = false
+shapes/0/shape = SubResource( 1 )
+shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
+shapes/0/trigger = false
+collision/layers = 1
+collision/mask = 1
+collision/margin = 0.08
+script/script = ExtResource( 1 )
+__meta__ = {
+"__editor_plugin_screen__": "Script"
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+
+visibility/opacity = 0.40112
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+
+build_mode = 0
+polygon = Vector2Array( 8, -24, 8, 16, -8, 16, -8, -24 )
+shape_range = Vector2( 0, 0 )
+trigger = false
+
+

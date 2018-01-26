@@ -29,4 +29,4 @@ func hit(damage):
 		set_layer_mask(0)
 		# Explode!
 		get_node("AnimationPlayer").play("Explode")
-		
+

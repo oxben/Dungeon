@@ -12,7 +12,7 @@ func _ready():
 	# Add level scene to current scene
 	if level_name == "":
 		level_name = "level-01"
-	var scn = ResourceLoader.load("res://" + level_name + ".xscn")
+	var scn = ResourceLoader.load("res://" + level_name + ".tscn")
 	level = scn.instance()
 	add_child(level)
 	move_child(level, 0)

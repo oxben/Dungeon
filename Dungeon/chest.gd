@@ -15,7 +15,7 @@ func _fixed_process(delta):
 		if not get_node("SamplePlayer").is_active():
 			get_node("Sprite").set_frame(1)
 			opening = false
-		
+
 func activate():
 	if open:
 		open = false

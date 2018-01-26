@@ -26,7 +26,7 @@ func _fixed_process(delta):
 			direction.x = -1
 		elif get_global_pos().x < 32:
 			direction.x = 1
-			
+
 		move((direction.normalized() * speed * delta))
 
 func _input(event):

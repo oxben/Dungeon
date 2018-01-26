@@ -64,7 +64,7 @@ func _input(event):
 		elif event.is_action_released("ui_accelerate"):
 			speed = speed / 2
 		elif event.is_action_pressed("fire"):
-			var scene = preload("res://fireball.xscn");
+			var scene = preload("res://fireball.tscn");
 			var fireball = scene.instance()
 			fireball.direction = Vector2(0, -1).rotated(get_rot())
 			fireball.set_global_pos(get_node("FireballEmitter").get_global_pos())
