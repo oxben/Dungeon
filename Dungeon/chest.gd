@@ -6,25 +6,25 @@ var opening = false
 
 func _ready():
 	add_to_group("activable")
-	set_fixed_process(true)
+	set_physics_process(true)
 
-func _fixed_process(delta):
+func _physics_process(delta):
 	# Set 'open' frame only once sound has finished
 	# There must be a simpler and more reliable way to do this
 	if opening:
-		if not get_node("SamplePlayer").is_active():
+		if not get_node("SfxOpen").is_playing():
 			get_node("Sprite").set_frame(1)
 			opening = false
 
 func activate():
 	if open:
 		open = false
-		get_node("SamplePlayer").play("chest-close")
+		get_node("SfxOpen").play()
 		get_node("Sprite").set_frame(0)
 	else:
 		open = true
 		opening = true
-		get_node("SamplePlayer").play("chest-open")
+		get_node("SfxClose").play()
 		#get_node("Sprite").set_frame(1)
 
 

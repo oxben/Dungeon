@@ -9,7 +9,7 @@ func _ready():
 	set_process_input(true)
 
 func _input(event):
-	if event.type in [InputEvent.KEY, InputEvent.JOYSTICK_BUTTON]:
+	if event is InputEventKey: #or event is InputEventJoystickButton:
 		var inc = 0
 		if event.is_action_pressed("ui_up"):
 			inc = -1

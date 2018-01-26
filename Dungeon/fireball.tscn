@@ -1,98 +1,95 @@
-[gd_scene load_steps=6 format=1]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://fireball.gd" type="Script" id=1]
 [ext_resource path="res://assets/gfx/fireball.png" type="Texture" id=2]
 [ext_resource path="res://assets/gfx/light-mask-2.png" type="Texture" id=3]
 
-[sub_resource type="ConvexPolygonShape2D" id=1]
+[sub_resource type="Animation" id=1]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 8, 0, 0, 8, -8, 0, 0, -8 )
-
-[sub_resource type="Animation" id=2]
-
-resource/name = "Explode"
+resource_name = "Explode"
 length = 0.2
 loop = false
 step = 0.1
 tracks/0/type = "value"
-tracks/0/path = NodePath("Sprite:transform/scale")
+tracks/0/path = NodePath("Sprite:scale")
 tracks/0/interp = 1
+tracks/0/loop_wrap = true
 tracks/0/imported = false
+tracks/0/enabled = true
 tracks/0/keys = {
-"times": FloatArray( 0, 0.1, 0.2 ),
-"transitions": FloatArray( 1, 0.25, 4 ),
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 0.25, 4 ),
 "update": 0,
 "values": [ Vector2( 1, 1 ), Vector2( 3, 3 ), Vector2( 0.1, 0.1 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Light2D:transform/scale")
+tracks/1/path = NodePath("Light2D:scale")
 tracks/1/interp = 1
+tracks/1/loop_wrap = true
 tracks/1/imported = false
+tracks/1/enabled = true
 tracks/1/keys = {
-"times": FloatArray( 0, 0.1, 0.2 ),
-"transitions": FloatArray( 1, 1, 4 ),
+"times": PoolRealArray( 0, 0.1, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 4 ),
 "update": 0,
 "values": [ Vector2( 1, 1 ), Vector2( 3, 3 ), Vector2( 0.1, 0.1 ) ]
 }
 
 [node name="Fireball" type="KinematicBody2D"]
 
-visibility/light_mask = 0
-input/pickable = false
-shapes/0/shape = SubResource( 1 )
-shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-collision/margin = 0.08
-script/script = ExtResource( 1 )
+light_mask = 0
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Collision", "collision" ]
 __meta__ = {
 "__editor_plugin_screen__": "Script"
 }
 
-[node name="Sprite" type="Sprite" parent="."]
+[node name="Sprite" type="Sprite" parent="." index="0"]
 
 texture = ExtResource( 2 )
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="1"]
 
-visibility/visible = false
+visible = false
 build_mode = 0
-polygon = Vector2Array( 0, -8, -8, 0, 0, 8, 8, 0 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 0, -8, -8, 0, 0, 8, 8, 0 )
 
-[node name="Light2D" type="Light2D" parent="."]
+[node name="Light2D" type="Light2D" parent="." index="2"]
 
 enabled = true
 editor_only = false
 texture = ExtResource( 3 )
 offset = Vector2( 0, 0 )
-scale = 1.5
+texture_scale = 1.0
 color = Color( 0.84375, 0.341821, 0.207642, 1 )
 energy = 2.0
 mode = 0
-range/height = 0.0
-range/z_min = -1024
-range/z_max = 1024
-range/layer_min = 0
-range/layer_max = 0
-range/item_mask = 1
-shadow/enabled = true
-shadow/color = Color( 0, 0, 0, 0 )
-shadow/buffer_size = 2048
-shadow/esm_multiplier = 80.0
-shadow/item_mask = 1
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 1
+shadow_enabled = true
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3"]
 
-playback/process_mode = 1
-playback/default_blend_time = 0.0
-root/root = NodePath("..")
-anims/Explode = SubResource( 2 )
-playback/active = true
-playback/speed = 1.0
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/Explode = SubResource( 1 )
 blend_times = [  ]
 autoplay = ""
 

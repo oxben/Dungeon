@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/chest-close-1.wav-867d564118f45e01ea3a9c1836b1de38.sample"
+
+[deps]
+
+source_file="res://assets/sfx/chest-close-1.wav"
+source_md5="71e79cf87ebf99ddac1d89ecb6aac921"
+
+dest_files=[ "res://.import/chest-close-1.wav-867d564118f45e01ea3a9c1836b1de38.sample" ]
+dest_md5="b6e7fdb5f03e77ce3099e5fb1b1e9810"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

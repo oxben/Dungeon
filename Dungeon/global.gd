@@ -39,7 +39,7 @@ func hit_fortress(damage):
 
 func goto_scene(scene, level_name=""):
 	current_level.queue_free()
-	if scene.basename() != "splash.xscn":
+	if scene.get_basename() != "splash.xscn":
 		# Reset player attributes
 		cash = 10
 		health = 5

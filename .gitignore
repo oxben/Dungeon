@@ -1,5 +1,6 @@
 # Godot
 .fscache
+.import
 
 # Windows image file caches
 Thumbs.db

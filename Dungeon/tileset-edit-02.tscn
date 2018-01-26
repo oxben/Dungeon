@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=1]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://assets/gfx/tiles/tiles-02.png" type="Texture" id=1]
 
@@ -6,275 +6,145 @@
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -16, -16, -16, 16, 16, 16, 16, -16 )
+polygon = PoolVector2Array( -16, -16, -16, 16, 16, 16, 16, -16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=2]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-
-[sub_resource type="OccluderPolygon2D" id=21]
+[sub_resource type="OccluderPolygon2D" id=2]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -16, -12, -16, 16, 16, 16, 16, -12 )
-
-[sub_resource type="ConvexPolygonShape2D" id=22]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
-
-[sub_resource type="OccluderPolygon2D" id=34]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( 12, -16, -16, -16, -16, 16, 12, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=35]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
-
-[sub_resource type="OccluderPolygon2D" id=38]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( -16, -16, -16, 12, 16, 12, 16, -16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=39]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
-
-[sub_resource type="OccluderPolygon2D" id=40]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( -12, -16, 16, -16, 16, 16, -12, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=42]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
-
-[sub_resource type="OccluderPolygon2D" id=43]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( -16, -12, -16, 16, 12, 16, 12, -12 )
-
-[sub_resource type="ConvexPolygonShape2D" id=44]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 7.5, -7.5, 7.5, 10, -10, 10, -10, -7.5 )
-
-[sub_resource type="OccluderPolygon2D" id=45]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( -16, 12, -16, -16, 12, -16, 12, 12 )
-
-[sub_resource type="ConvexPolygonShape2D" id=46]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 7.5, -10, 7.5, 7.5, -10, 7.5, -10, -10 )
-
-[sub_resource type="OccluderPolygon2D" id=47]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( -12, -16, 16, -16, 16, 12, -12, 12 )
-
-[sub_resource type="ConvexPolygonShape2D" id=48]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -10, 10, 7.5, -7.5, 7.5, -7.5, -10 )
-
-[sub_resource type="OccluderPolygon2D" id=49]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( -12, -12, 16, -12, 16, 16, -12, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=50]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -7.5, 10, 10, -7.5, 10, -7.5, -7.5 )
+polygon = PoolVector2Array( -16, -12, -16, 16, 16, 16, 16, -12 )
 
 [sub_resource type="OccluderPolygon2D" id=3]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -16, -12, 16, -12, 16, 12, -16, 12 )
+polygon = PoolVector2Array( 12, -16, -16, -16, -16, 16, 12, 16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=4]
+[sub_resource type="OccluderPolygon2D" id=4]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -7.5, 10, 7.5, -10, 7.5, -10, -7.5 )
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -16, -16, -16, 12, 16, 12, 16, -16 )
 
 [sub_resource type="OccluderPolygon2D" id=5]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -12, -16, -12, 16, 12, 16, 12, -16 )
+polygon = PoolVector2Array( -12, -16, 16, -16, 16, 16, -12, 16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=6]
+[sub_resource type="OccluderPolygon2D" id=6]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 7.5, -10, 7.5, 10, -7.5, 10, -7.5, -10 )
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -16, -12, -16, 16, 12, 16, 12, -12 )
 
 [sub_resource type="OccluderPolygon2D" id=7]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -16, -12, 12, -12, 12, 12, -16, 12 )
+polygon = PoolVector2Array( -16, 12, -16, -16, 12, -16, 12, 12 )
 
-[sub_resource type="ConvexPolygonShape2D" id=8]
+[sub_resource type="OccluderPolygon2D" id=8]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 7.5, -7.5, 7.5, 7.5, -10, 7.5, -10, -7.5 )
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -12, -16, 16, -16, 16, 12, -12, 12 )
 
 [sub_resource type="OccluderPolygon2D" id=9]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -12, -16, -12, 12, 12, 12, 12, -16 )
+polygon = PoolVector2Array( -12, -12, 16, -12, 16, 16, -12, 16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=10]
+[sub_resource type="OccluderPolygon2D" id=10]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 7.5, -10, 7.5, 7.5, -7.5, 7.5, -7.5, -10 )
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -16, -12, 16, -12, 16, 12, -16, 12 )
 
 [sub_resource type="OccluderPolygon2D" id=11]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( 16, -12, -12, -12, -12, 12, 16, 12 )
+polygon = PoolVector2Array( -12, -16, -12, 16, 12, 16, 12, -16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=12]
+[sub_resource type="OccluderPolygon2D" id=12]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -7.5, 10, 7.5, -7.5, 7.5, -7.5, -7.5 )
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -16, -12, 12, -12, 12, 12, -16, 12 )
 
 [sub_resource type="OccluderPolygon2D" id=13]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -12, -12, -12, 16, 12, 16, 12, -12 )
+polygon = PoolVector2Array( -12, -16, -12, 12, 12, 12, 12, -16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=14]
+[sub_resource type="OccluderPolygon2D" id=14]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 7.5, -7.5, 7.5, 10, -7.5, 10, -7.5, -7.5 )
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( 16, -12, -12, -12, -12, 12, 16, 12 )
 
 [sub_resource type="OccluderPolygon2D" id=15]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -12, -12, -12, 12, 12, 12, 12, -12 )
+polygon = PoolVector2Array( -12, -12, -12, 16, 12, 16, 12, -12 )
 
-[sub_resource type="ConvexPolygonShape2D" id=16]
+[sub_resource type="OccluderPolygon2D" id=16]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 7.5, -7.5, 7.5, 7.5, -7.5, 7.5, -7.5, -7.5 )
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -12, -12, -12, 12, 12, 12, 12, -12 )
 
 [sub_resource type="OccluderPolygon2D" id=17]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -16, -16, 12, -16, 12, -12, 16, -12, 16, 16, -16, 16 )
+polygon = PoolVector2Array( -16, -16, 12, -16, 12, -12, 16, -12, 16, 16, -16, 16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=18]
+[sub_resource type="OccluderPolygon2D" id=18]
 
-custom_solver_bias = 0.0
-points = Vector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -16, -16, -16, 16, 12, 16, 12, 12, 16, 12, 16, -16 )
 
 [sub_resource type="OccluderPolygon2D" id=19]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -16, -16, -16, 16, 12, 16, 12, 12, 16, 12, 16, -16 )
+polygon = PoolVector2Array( -16, -16, -16, 12, -12, 12, -12, 16, 16, 16, 16, -16 )
 
 [sub_resource type="OccluderPolygon2D" id=20]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -16, -16, -16, 12, -12, 12, -12, 16, 16, 16, 16, -16 )
+polygon = PoolVector2Array( -12, -16, -12, -12, -16, -12, -16, 16, 16, 16, 16, -16 )
+
+[sub_resource type="OccluderPolygon2D" id=21]
+
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -16, -16, -16, 12, 12, -16 )
+
+[sub_resource type="OccluderPolygon2D" id=22]
+
+closed = true
+cull_mode = 0
+polygon = PoolVector2Array( -12, -16, 16, 12, 16, -16 )
 
 [sub_resource type="OccluderPolygon2D" id=23]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -12, -16, -12, -12, -16, -12, -16, 16, 16, 16, 16, -16 )
+polygon = PoolVector2Array( 16, 16, 16, -12, -12, 16 )
 
-[sub_resource type="ConvexPolygonShape2D" id=24]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
-
-[sub_resource type="OccluderPolygon2D" id=25]
+[sub_resource type="OccluderPolygon2D" id=24]
 
 closed = true
 cull_mode = 0
-polygon = Vector2Array( -16, -16, -16, 12, 12, -16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=26]
-
-custom_solver_bias = 0.0
-points = Vector2Array( -10, -10, 7.5, -10, -10, 7.5 )
-
-[sub_resource type="OccluderPolygon2D" id=27]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( -12, -16, 16, 12, 16, -16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=28]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -10, 10, 7.5, -7.5, -10 )
-
-[sub_resource type="OccluderPolygon2D" id=29]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( 16, 16, 16, -12, -12, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=30]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -7.5, 10, 10, -7.5, 10 )
-
-[sub_resource type="OccluderPolygon2D" id=31]
-
-closed = true
-cull_mode = 0
-polygon = Vector2Array( -16, -12, -16, 16, 12, 16 )
-
-[sub_resource type="ConvexPolygonShape2D" id=32]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 7.5, 10, -10, 10, -10, -7.5 )
-
-[sub_resource type="ConvexPolygonShape2D" id=33]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-
-[sub_resource type="ConvexPolygonShape2D" id=36]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-
-[sub_resource type="ConvexPolygonShape2D" id=37]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
-
-[sub_resource type="ConvexPolygonShape2D" id=41]
-
-custom_solver_bias = 0.0
-points = Vector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
+polygon = PoolVector2Array( -16, -12, -16, 16, 12, 16 )
 
 [node name="Node2D" type="Node2D"]
 
@@ -282,1730 +152,1485 @@ __meta__ = {
 "__editor_plugin_screen__": "2D"
 }
 
-[node name="Floor" type="Sprite" parent="."]
+[node name="Floor" type="Sprite" parent="." index="0"]
 
-transform/pos = Vector2( 16, 16 )
+position = Vector2( 16, 16 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 0, 40, 32, 32 )
 
-[node name="WallPlain" type="Sprite" parent="."]
+[node name="WallPlain" type="Sprite" parent="." index="1"]
 
 editor/display_folded = true
-transform/pos = Vector2( 56, 16 )
+position = Vector2( 56, 16 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 40, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain" index="0"]
 
 occluder = SubResource( 1 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 2 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="WallTop" type="Sprite" parent="."]
+[node name="WallTop" type="Sprite" parent="." index="2"]
 
 editor/display_folded = true
-transform/pos = Vector2( 96, 16 )
+position = Vector2( 96, 16 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 80, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop" index="0"]
 
-occluder = SubResource( 21 )
+occluder = SubResource( 2 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTop"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTop" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 22 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
 
-[node name="WallRight" type="Sprite" parent="."]
+[node name="WallRight" type="Sprite" parent="." index="3"]
 
 editor/display_folded = true
-transform/pos = Vector2( 136, 16 )
+position = Vector2( 136, 16 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 120, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight"]
-
-occluder = SubResource( 34 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallRight"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 35 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -3.6, -0.4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight/StaticBody2D"]
-
-transform/pos = Vector2( -3.6, -0.4 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallBottom" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 176, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 160, 40, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom"]
-
-occluder = SubResource( 38 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 39 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallLeft" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 216, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 200, 40, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft"]
-
-occluder = SubResource( 40 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 42 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallTopRight" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 256, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 240, 40, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopRight"]
-
-occluder = SubResource( 43 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTopRight"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 44 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopRight/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 7.5, -7.5, 7.5, 10, -10, 10, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallRightBottom" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 296, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 280, 40, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRightBottom"]
-
-occluder = SubResource( 45 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallRightBottom"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 46 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRightBottom/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 7.5, -10, 7.5, 7.5, -10, 7.5, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallBottomLeft" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 336, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 320, 40, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottomLeft"]
-
-occluder = SubResource( 47 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallBottomLeft"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 48 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottomLeft/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 7.5, -7.5, 7.5, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallLeftTop" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 376, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 360, 40, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeftTop"]
-
-occluder = SubResource( 49 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallLeftTop"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 50 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeftTop/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 10, -7.5, 10, -7.5, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallTopBottom" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 416, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 400, 40, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopBottom"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight" index="0"]
 
 occluder = SubResource( 3 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTopBottom"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallRight" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 4 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopBottom/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( -3.6, -0.4 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 7.5, -10, 7.5, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
 
-[node name="WallLeftRight" type="Sprite" parent="."]
+[node name="WallBottom" type="Sprite" parent="." index="4"]
 
 editor/display_folded = true
-transform/pos = Vector2( 456, 16 )
+position = Vector2( 176, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 440, 40, 32, 32 )
+region_enabled = true
+region_rect = Rect2( 160, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeftRight"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom" index="0"]
+
+occluder = SubResource( 4 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
+
+[node name="WallLeft" type="Sprite" parent="." index="5"]
+
+editor/display_folded = true
+position = Vector2( 216, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 200, 40, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft" index="0"]
 
 occluder = SubResource( 5 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallLeftRight"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 6 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeftRight/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 7.5, -10, 7.5, 10, -7.5, 10, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
 
-[node name="WallTopRightBottom" type="Sprite" parent="."]
+[node name="WallTopRight" type="Sprite" parent="." index="6"]
 
 editor/display_folded = true
-transform/pos = Vector2( 496, 16 )
+position = Vector2( 256, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 480, 40, 32, 32 )
+region_enabled = true
+region_rect = Rect2( 240, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopRightBottom"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopRight" index="0"]
+
+occluder = SubResource( 6 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTopRight" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopRight/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 7.5, -7.5, 7.5, 10, -10, 10, -10, -7.5 )
+
+[node name="WallRightBottom" type="Sprite" parent="." index="7"]
+
+editor/display_folded = true
+position = Vector2( 296, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 280, 40, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRightBottom" index="0"]
 
 occluder = SubResource( 7 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTopRightBottom"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallRightBottom" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 8 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopRightBottom/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRightBottom/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 7.5, -7.5, 7.5, 7.5, -10, 7.5, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 7.5, -10, 7.5, 7.5, -10, 7.5, -10, -10 )
 
-[node name="WallRightBottomLeft" type="Sprite" parent="."]
+[node name="WallBottomLeft" type="Sprite" parent="." index="8"]
 
 editor/display_folded = true
-transform/pos = Vector2( 536, 16 )
+position = Vector2( 336, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 520, 40, 32, 32 )
+region_enabled = true
+region_rect = Rect2( 320, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRightBottomLeft"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottomLeft" index="0"]
+
+occluder = SubResource( 8 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallBottomLeft" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottomLeft/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 10, -10, 10, 7.5, -7.5, 7.5, -7.5, -10 )
+
+[node name="WallLeftTop" type="Sprite" parent="." index="9"]
+
+editor/display_folded = true
+position = Vector2( 376, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 360, 40, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeftTop" index="0"]
 
 occluder = SubResource( 9 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallRightBottomLeft"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallLeftTop" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 10 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRightBottomLeft/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeftTop/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 7.5, -10, 7.5, 7.5, -7.5, 7.5, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -7.5, 10, 10, -7.5, 10, -7.5, -7.5 )
 
-[node name="WallBottomLeftTop" type="Sprite" parent="."]
+[node name="WallTopBottom" type="Sprite" parent="." index="10"]
 
 editor/display_folded = true
-transform/pos = Vector2( 576, 16 )
+position = Vector2( 416, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 560, 40, 32, 32 )
+region_enabled = true
+region_rect = Rect2( 400, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottomLeftTop"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopBottom" index="0"]
+
+occluder = SubResource( 10 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTopBottom" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopBottom/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 10, -7.5, 10, 7.5, -10, 7.5, -10, -7.5 )
+
+[node name="WallLeftRight" type="Sprite" parent="." index="11"]
+
+editor/display_folded = true
+position = Vector2( 456, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 440, 40, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeftRight" index="0"]
 
 occluder = SubResource( 11 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallBottomLeftTop"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallLeftRight" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 12 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottomLeftTop/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeftRight/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 7.5, -7.5, 7.5, -7.5, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 7.5, -10, 7.5, 10, -7.5, 10, -7.5, -10 )
 
-[node name="WallLeftTopRight" type="Sprite" parent="."]
+[node name="WallTopRightBottom" type="Sprite" parent="." index="12"]
 
 editor/display_folded = true
-transform/pos = Vector2( 616, 16 )
+position = Vector2( 496, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 600, 40, 32, 32 )
+region_enabled = true
+region_rect = Rect2( 480, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeftTopRight"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopRightBottom" index="0"]
+
+occluder = SubResource( 12 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTopRightBottom" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopRightBottom/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 7.5, -7.5, 7.5, 7.5, -10, 7.5, -10, -7.5 )
+
+[node name="WallRightBottomLeft" type="Sprite" parent="." index="13"]
+
+editor/display_folded = true
+position = Vector2( 536, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 520, 40, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRightBottomLeft" index="0"]
 
 occluder = SubResource( 13 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallLeftTopRight"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallRightBottomLeft" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 14 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeftTopRight/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRightBottomLeft/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 7.5, -7.5, 7.5, 10, -7.5, 10, -7.5, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 7.5, -10, 7.5, 7.5, -7.5, 7.5, -7.5, -10 )
 
-[node name="WallTopRightBottomLeft" type="Sprite" parent="."]
+[node name="WallBottomLeftTop" type="Sprite" parent="." index="14"]
 
 editor/display_folded = true
-transform/pos = Vector2( 656, 16 )
+position = Vector2( 576, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 640, 40, 32, 32 )
+region_enabled = true
+region_rect = Rect2( 560, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopRightBottomLeft"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottomLeftTop" index="0"]
+
+occluder = SubResource( 14 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallBottomLeftTop" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottomLeftTop/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 10, -7.5, 10, 7.5, -7.5, 7.5, -7.5, -7.5 )
+
+[node name="WallLeftTopRight" type="Sprite" parent="." index="15"]
+
+editor/display_folded = true
+position = Vector2( 616, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 600, 40, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeftTopRight" index="0"]
 
 occluder = SubResource( 15 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTopRightBottomLeft"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallLeftTopRight" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 16 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopRightBottomLeft/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeftTopRight/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 7.5, -7.5, 7.5, 7.5, -7.5, 7.5, -7.5, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 7.5, -7.5, 7.5, 10, -7.5, 10, -7.5, -7.5 )
 
-[node name="WallCornerTopRight" type="Sprite" parent="."]
+[node name="WallTopRightBottomLeft" type="Sprite" parent="." index="16"]
 
 editor/display_folded = true
-transform/pos = Vector2( 696, 16 )
+position = Vector2( 656, 16 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
+region_rect = Rect2( 640, 40, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopRightBottomLeft" index="0"]
+
+occluder = SubResource( 16 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTopRightBottomLeft" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopRightBottomLeft/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 7.5, -7.5, 7.5, 7.5, -7.5, 7.5, -7.5, -7.5 )
+
+[node name="WallCornerTopRight" type="Sprite" parent="." index="17"]
+
+editor/display_folded = true
+position = Vector2( 696, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
 region_rect = Rect2( 680, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallCornerTopRight"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallCornerTopRight" index="0"]
 
 occluder = SubResource( 17 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallCornerTopRight"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallCornerTopRight" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 18 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -2, -4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallCornerTopRight/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallCornerTopRight/StaticBody2D" index="0"]
 
-transform/pos = Vector2( -2, -4 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( -2, -4 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
 
-[node name="WallCornerRightBottom" type="Sprite" parent="."]
+[node name="WallCornerRightBottom" type="Sprite" parent="." index="18"]
 
 editor/display_folded = true
-transform/pos = Vector2( 736, 16 )
+position = Vector2( 736, 16 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 720, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallCornerRightBottom"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallCornerRightBottom" index="0"]
+
+occluder = SubResource( 18 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallCornerRightBottom" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallCornerRightBottom/StaticBody2D" index="0"]
+
+position = Vector2( -2, -4 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
+
+[node name="WallCornerBottomLeft" type="Sprite" parent="." index="19"]
+
+editor/display_folded = true
+position = Vector2( 776, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 760, 40, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallCornerBottomLeft" index="0"]
 
 occluder = SubResource( 19 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallCornerRightBottom"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallCornerBottomLeft" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 18 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -2, -4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallCornerRightBottom/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallCornerBottomLeft/StaticBody2D" index="0"]
 
-transform/pos = Vector2( -2, -4 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( -2, -4 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
 
-[node name="WallCornerBottomLeft" type="Sprite" parent="."]
+[node name="WallCornerLeftTop" type="Sprite" parent="." index="20"]
 
 editor/display_folded = true
-transform/pos = Vector2( 776, 16 )
+position = Vector2( 816, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 760, 40, 32, 32 )
+region_enabled = true
+region_rect = Rect2( 800, 40, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallCornerBottomLeft"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallCornerLeftTop" index="0"]
 
 occluder = SubResource( 20 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallCornerBottomLeft"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallCornerLeftTop" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 18 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -2, -4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallCornerBottomLeft/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallCornerLeftTop/StaticBody2D" index="0"]
 
-transform/pos = Vector2( -2, -4 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( -2, -4 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
 
-[node name="WallCornerLeftTop" type="Sprite" parent="."]
+[node name="WallDiagLeftTop" type="Sprite" parent="." index="21"]
 
 editor/display_folded = true
-transform/pos = Vector2( 816, 16 )
+position = Vector2( 856, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 800, 40, 32, 32 )
+region_enabled = true
+region_rect = Rect2( 840, 0, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallCornerLeftTop"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallDiagLeftTop" index="0"]
+
+occluder = SubResource( 21 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallDiagLeftTop" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallDiagLeftTop/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( -10, -10, 7.5, -10, -10, 7.5 )
+
+[node name="WallDiagTopRight" type="Sprite" parent="." index="22"]
+
+editor/display_folded = true
+position = Vector2( 896, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 880, 0, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallDiagTopRight" index="0"]
+
+occluder = SubResource( 22 )
+light_mask = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="WallDiagTopRight" index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallDiagTopRight/StaticBody2D" index="0"]
+
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
+build_mode = 0
+polygon = PoolVector2Array( 10, -10, 10, 7.5, -7.5, -10 )
+
+[node name="WallDiagRightBottom" type="Sprite" parent="." index="23"]
+
+editor/display_folded = true
+position = Vector2( 936, 16 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 920, 0, 32, 32 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallDiagRightBottom" index="0"]
 
 occluder = SubResource( 23 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallCornerLeftTop"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallDiagRightBottom" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 24 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -2, -4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallCornerLeftTop/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallDiagRightBottom/StaticBody2D" index="0"]
 
-transform/pos = Vector2( -2, -4 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 11.25, -7.5, 11.25, 12.5, -8.75, 12.5, -8.75, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -7.5, 10, 10, -7.5, 10 )
 
-[node name="WallDiagLeftTop" type="Sprite" parent="."]
+[node name="WallDiagBottomLeft" type="Sprite" parent="." index="24"]
 
 editor/display_folded = true
-transform/pos = Vector2( 856, 16 )
+position = Vector2( 976, 16 )
 texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 840, 0, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallDiagLeftTop"]
-
-occluder = SubResource( 25 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallDiagLeftTop"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 26 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallDiagLeftTop/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( -10, -10, 7.5, -10, -10, 7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallDiagTopRight" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 896, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 880, 0, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallDiagTopRight"]
-
-occluder = SubResource( 27 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallDiagTopRight"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 28 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallDiagTopRight/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 7.5, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallDiagRightBottom" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 936, 16 )
-texture = ExtResource( 1 )
-region = true
-region_rect = Rect2( 920, 0, 32, 32 )
-
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallDiagRightBottom"]
-
-occluder = SubResource( 29 )
-light_mask = 1
-
-[node name="StaticBody2D" type="StaticBody2D" parent="WallDiagRightBottom"]
-
-input/pickable = false
-shapes/0/shape = SubResource( 30 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
-constant_linear_velocity = Vector2( 0, 0 )
-constant_angular_velocity = 0.0
-friction = 1.0
-bounce = 0.0
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallDiagRightBottom/StaticBody2D"]
-
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
-build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 10, -7.5, 10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
-
-[node name="WallDiagBottomLeft" type="Sprite" parent="."]
-
-editor/display_folded = true
-transform/pos = Vector2( 976, 16 )
-texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 960, 0, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallDiagBottomLeft"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallDiagBottomLeft" index="0"]
 
-occluder = SubResource( 31 )
+occluder = SubResource( 24 )
 light_mask = 1
 
-[node name="StaticBody2D4" type="StaticBody2D" parent="WallDiagBottomLeft"]
+[node name="StaticBody2D4" type="StaticBody2D" parent="WallDiagBottomLeft" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 32 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallDiagBottomLeft/StaticBody2D4"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallDiagBottomLeft/StaticBody2D4" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 7.5, 10, -10, 10, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 7.5, 10, -10, 10, -10, -7.5 )
 
-[node name="FrontWallPlain" type="Sprite" parent="."]
+[node name="FrontWallPlain" type="Sprite" parent="." index="25"]
 
 editor/display_folded = true
-transform/pos = Vector2( 16, 216 )
+position = Vector2( 16, 216 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 0, 280, 32, 32 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="FrontWallPlain"]
+[node name="StaticBody2D" type="StaticBody2D" parent="FrontWallPlain" index="0"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 33 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 0, 0 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FrontWallPlain/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FrontWallPlain/StaticBody2D" index="0"]
 
-transform/scale = Vector2( 1.6, 1.6 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="FrontWallRight" type="Sprite" parent="."]
+[node name="FrontWallRight" type="Sprite" parent="." index="26"]
 
 editor/display_folded = true
-transform/pos = Vector2( 56, 216 )
+position = Vector2( 56, 216 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 40, 280, 32, 32 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="FrontWallRight"]
+[node name="StaticBody2D" type="StaticBody2D" parent="FrontWallRight" index="0"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 33 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 0, 0 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FrontWallRight/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FrontWallRight/StaticBody2D" index="0"]
 
-transform/scale = Vector2( 1.6, 1.6 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="FrontWallLeft" type="Sprite" parent="."]
+[node name="FrontWallLeft" type="Sprite" parent="." index="27"]
 
 editor/display_folded = true
-transform/pos = Vector2( 96, 216 )
+position = Vector2( 96, 216 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 80, 280, 32, 32 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="FrontWallLeft"]
+[node name="StaticBody2D" type="StaticBody2D" parent="FrontWallLeft" index="0"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 33 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 0, 0 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FrontWallLeft/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FrontWallLeft/StaticBody2D" index="0"]
 
-transform/scale = Vector2( 1.6, 1.6 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="FrontWallRightLeft" type="Sprite" parent="."]
+[node name="FrontWallRightLeft" type="Sprite" parent="." index="28"]
 
 editor/display_folded = true
-transform/pos = Vector2( 136, 216 )
+position = Vector2( 136, 216 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 120, 280, 32, 32 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="FrontWallRightLeft"]
+[node name="StaticBody2D" type="StaticBody2D" parent="FrontWallRightLeft" index="0"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 33 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 0, 0 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FrontWallRightLeft/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="FrontWallRightLeft/StaticBody2D" index="0"]
 
-transform/scale = Vector2( 1.6, 1.6 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="Floor-02" type="Sprite" parent="."]
+[node name="Floor-02" type="Sprite" parent="." index="29"]
 
-transform/pos = Vector2( 16, 56 )
+position = Vector2( 16, 56 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 0, 80, 32, 32 )
 
-[node name="Floor-03" type="Sprite" parent="."]
+[node name="Floor-03" type="Sprite" parent="." index="30"]
 
-transform/pos = Vector2( 16, 96 )
+position = Vector2( 16, 96 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 0, 120, 32, 32 )
 
-[node name="Floor-04" type="Sprite" parent="."]
+[node name="Floor-04" type="Sprite" parent="." index="31"]
 
-transform/pos = Vector2( 16, 136 )
+position = Vector2( 16, 136 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 0, 160, 32, 32 )
 
-[node name="Floor-05" type="Sprite" parent="."]
+[node name="Floor-05" type="Sprite" parent="." index="32"]
 
-transform/pos = Vector2( 16, 176 )
+position = Vector2( 16, 176 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 0, 200, 32, 32 )
 
-[node name="WallPlain-02" type="Sprite" parent="."]
+[node name="WallPlain-02" type="Sprite" parent="." index="33"]
 
 editor/display_folded = true
-transform/pos = Vector2( 56, 56 )
+position = Vector2( 56, 56 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 40, 80, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain-02"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain-02" index="0"]
 
 occluder = SubResource( 1 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain-02"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain-02" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 36 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain-02/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain-02/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="WallPlain-03" type="Sprite" parent="."]
+[node name="WallPlain-03" type="Sprite" parent="." index="34"]
 
 editor/display_folded = true
-transform/pos = Vector2( 56, 96 )
+position = Vector2( 56, 96 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 40, 120, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain-03"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain-03" index="0"]
 
 occluder = SubResource( 1 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain-03"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain-03" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 36 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain-03/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain-03/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="WallPlain-04" type="Sprite" parent="."]
+[node name="WallPlain-04" type="Sprite" parent="." index="35"]
 
 editor/display_folded = true
-transform/pos = Vector2( 56, 136 )
+position = Vector2( 56, 136 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 40, 160, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain-04"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain-04" index="0"]
 
 occluder = SubResource( 1 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain-04"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain-04" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 36 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain-04/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain-04/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="WallPlain-05" type="Sprite" parent="."]
+[node name="WallPlain-05" type="Sprite" parent="." index="36"]
 
 editor/display_folded = true
-transform/pos = Vector2( 56, 176 )
+position = Vector2( 56, 176 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 40, 200, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain-05"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallPlain-05" index="0"]
 
 occluder = SubResource( 1 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain-05"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallPlain-05" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 36 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain-05/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallPlain-05/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -10, 10, -10, -10 )
 
-[node name="WallTop-02" type="Sprite" parent="."]
+[node name="WallTop-02" type="Sprite" parent="." index="37"]
 
 editor/display_folded = true
-transform/pos = Vector2( 96, 56 )
+position = Vector2( 96, 56 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 80, 80, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop-02"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop-02" index="0"]
 
-occluder = SubResource( 21 )
+occluder = SubResource( 2 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTop-02"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTop-02" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 37 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop-02/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop-02/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
 
-[node name="WallTop-03" type="Sprite" parent="."]
+[node name="WallTop-03" type="Sprite" parent="." index="38"]
 
 editor/display_folded = true
-transform/pos = Vector2( 96, 96 )
+position = Vector2( 96, 96 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 80, 120, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop-03"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop-03" index="0"]
 
-occluder = SubResource( 21 )
+occluder = SubResource( 2 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTop-03"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTop-03" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 37 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop-03/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop-03/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
 
-[node name="WallTop-04" type="Sprite" parent="."]
+[node name="WallTop-04" type="Sprite" parent="." index="39"]
 
 editor/display_folded = true
-transform/pos = Vector2( 96, 136 )
+position = Vector2( 96, 136 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 80, 160, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop-04"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop-04" index="0"]
 
-occluder = SubResource( 21 )
+occluder = SubResource( 2 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTop-04"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTop-04" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 37 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop-04/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop-04/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
 
-[node name="WallTop-05" type="Sprite" parent="."]
+[node name="WallTop-05" type="Sprite" parent="." index="40"]
 
 editor/display_folded = true
-transform/pos = Vector2( 96, 176 )
+position = Vector2( 96, 176 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 80, 200, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop-05"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTop-05" index="0"]
 
-occluder = SubResource( 21 )
+occluder = SubResource( 2 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTop-05"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTop-05" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 37 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop-05/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTop-05/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -7.5, 10, 10, -10, 10, -10, -7.5 )
 
-[node name="WallRight-02" type="Sprite" parent="."]
+[node name="WallRight-02" type="Sprite" parent="." index="41"]
 
 editor/display_folded = true
-transform/pos = Vector2( 136, 56 )
+position = Vector2( 136, 56 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 120, 80, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight-02"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight-02" index="0"]
 
-occluder = SubResource( 34 )
+occluder = SubResource( 3 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallRight-02"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallRight-02" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 35 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -3.6, -0.4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight-02/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight-02/StaticBody2D" index="0"]
 
-transform/pos = Vector2( -3.6, -0.4 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( -3.6, -0.4 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
 
-[node name="WallRight-03" type="Sprite" parent="."]
+[node name="WallRight-03" type="Sprite" parent="." index="42"]
 
 editor/display_folded = true
-transform/pos = Vector2( 136, 96 )
+position = Vector2( 136, 96 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 120, 120, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight-03"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight-03" index="0"]
 
-occluder = SubResource( 34 )
+occluder = SubResource( 3 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallRight-03"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallRight-03" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 35 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -3.6, -0.4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight-03/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight-03/StaticBody2D" index="0"]
 
-transform/pos = Vector2( -3.6, -0.4 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( -3.6, -0.4 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
 
-[node name="WallRight-04" type="Sprite" parent="."]
+[node name="WallRight-04" type="Sprite" parent="." index="43"]
 
 editor/display_folded = true
-transform/pos = Vector2( 136, 136 )
+position = Vector2( 136, 136 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 120, 160, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight-04"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight-04" index="0"]
 
-occluder = SubResource( 34 )
+occluder = SubResource( 3 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallRight-04"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallRight-04" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 35 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -3.6, -0.4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight-04/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight-04/StaticBody2D" index="0"]
 
-transform/pos = Vector2( -3.6, -0.4 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( -3.6, -0.4 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
 
-[node name="WallRight-05" type="Sprite" parent="."]
+[node name="WallRight-05" type="Sprite" parent="." index="44"]
 
 editor/display_folded = true
-transform/pos = Vector2( 136, 176 )
+position = Vector2( 136, 176 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 120, 200, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight-05"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallRight-05" index="0"]
 
-occluder = SubResource( 34 )
+occluder = SubResource( 3 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallRight-05"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallRight-05" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 35 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, -3.6, -0.4 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight-05/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallRight-05/StaticBody2D" index="0"]
 
-transform/pos = Vector2( -3.6, -0.4 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( -3.6, -0.4 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 9.75001, -9.75, 9.75001, 10.25, -7.74999, 10.25, -7.74999, -9.75 )
 
-[node name="WallBottom-02" type="Sprite" parent="."]
+[node name="WallBottom-02" type="Sprite" parent="." index="45"]
 
 editor/display_folded = true
-transform/pos = Vector2( 176, 56 )
+position = Vector2( 176, 56 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 160, 80, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom-02"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom-02" index="0"]
 
-occluder = SubResource( 38 )
+occluder = SubResource( 4 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom-02"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom-02" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 39 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom-02/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom-02/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
 
-[node name="WallBottom-03" type="Sprite" parent="."]
+[node name="WallBottom-03" type="Sprite" parent="." index="46"]
 
 editor/display_folded = true
-transform/pos = Vector2( 176, 96 )
+position = Vector2( 176, 96 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 160, 120, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom-03"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom-03" index="0"]
 
-occluder = SubResource( 38 )
+occluder = SubResource( 4 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom-03"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom-03" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 39 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom-03/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom-03/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
 
-[node name="WallBottom-04" type="Sprite" parent="."]
+[node name="WallBottom-04" type="Sprite" parent="." index="47"]
 
 editor/display_folded = true
-transform/pos = Vector2( 176, 136 )
+position = Vector2( 176, 136 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 160, 160, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom-04"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom-04" index="0"]
 
-occluder = SubResource( 38 )
+occluder = SubResource( 4 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom-04"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom-04" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 39 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom-04/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom-04/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
 
-[node name="WallBottom-05" type="Sprite" parent="."]
+[node name="WallBottom-05" type="Sprite" parent="." index="48"]
 
 editor/display_folded = true
-transform/pos = Vector2( 176, 176 )
+position = Vector2( 176, 176 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 160, 200, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom-05"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallBottom-05" index="0"]
 
-occluder = SubResource( 38 )
+occluder = SubResource( 4 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom-05"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallBottom-05" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 39 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom-05/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallBottom-05/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 7.5, -10, 7.5, -10, -10 )
 
-[node name="WallLeft-02" type="Sprite" parent="."]
+[node name="WallLeft-02" type="Sprite" parent="." index="49"]
 
 editor/display_folded = true
-transform/pos = Vector2( 216, 56 )
+position = Vector2( 216, 56 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 200, 80, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft-02"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft-02" index="0"]
 
-occluder = SubResource( 40 )
+occluder = SubResource( 5 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft-02"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft-02" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 41 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft-02/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft-02/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
 
-[node name="WallLeft-03" type="Sprite" parent="."]
+[node name="WallLeft-03" type="Sprite" parent="." index="50"]
 
 editor/display_folded = true
-transform/pos = Vector2( 216, 96 )
+position = Vector2( 216, 96 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 200, 120, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft-03"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft-03" index="0"]
 
-occluder = SubResource( 40 )
+occluder = SubResource( 5 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft-03"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft-03" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 41 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft-03/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft-03/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
 
-[node name="WallLeft-04" type="Sprite" parent="."]
+[node name="WallLeft-04" type="Sprite" parent="." index="51"]
 
 editor/display_folded = true
-transform/pos = Vector2( 216, 136 )
+position = Vector2( 216, 136 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 200, 160, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft-04"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft-04" index="0"]
 
-occluder = SubResource( 40 )
+occluder = SubResource( 5 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft-04"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft-04" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 41 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft-04/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft-04/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
 
-[node name="WallLeft-05" type="Sprite" parent="."]
+[node name="WallLeft-05" type="Sprite" parent="." index="52"]
 
 editor/display_folded = true
-transform/pos = Vector2( 216, 176 )
+position = Vector2( 216, 176 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 200, 200, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft-05"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallLeft-05" index="0"]
 
-occluder = SubResource( 40 )
+occluder = SubResource( 5 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft-05"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallLeft-05" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 41 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft-05/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallLeft-05/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 10, -10, 10, 10, -7.5, 10, -7.5, -10 )
 
-[node name="WallTopRightBottomLeft-02" type="Sprite" parent="."]
+[node name="WallTopRightBottomLeft-02" type="Sprite" parent="." index="53"]
 
 editor/display_folded = true
-transform/pos = Vector2( 656, 56 )
+position = Vector2( 656, 56 )
 texture = ExtResource( 1 )
-region = true
+region_enabled = true
 region_rect = Rect2( 640, 80, 32, 32 )
 
-[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopRightBottomLeft-02"]
+[node name="LightOccluder2D" type="LightOccluder2D" parent="WallTopRightBottomLeft-02" index="0"]
 
-occluder = SubResource( 15 )
+occluder = SubResource( 16 )
 light_mask = 1
 
-[node name="StaticBody2D" type="StaticBody2D" parent="WallTopRightBottomLeft-02"]
+[node name="StaticBody2D" type="StaticBody2D" parent="WallTopRightBottomLeft-02" index="1"]
 
-input/pickable = false
-shapes/0/shape = SubResource( 16 )
-shapes/0/transform = Matrix32( 1.6, 0, 0, 1.6, 1.43051e-06, 2.38419e-07 )
-shapes/0/trigger = false
-collision/layers = 1
-collision/mask = 1
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
 constant_linear_velocity = Vector2( 0, 0 )
 constant_angular_velocity = 0.0
 friction = 1.0
 bounce = 0.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopRightBottomLeft-02/StaticBody2D"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="WallTopRightBottomLeft-02/StaticBody2D" index="0"]
 
-transform/pos = Vector2( 1.43051e-06, 2.38419e-07 )
-transform/scale = Vector2( 1.6, 1.6 )
+position = Vector2( 1.43051e-06, 2.38419e-07 )
+scale = Vector2( 1.6, 1.6 )
 build_mode = 0
-polygon = Vector2Array( 7.5, -7.5, 7.5, 7.5, -7.5, 7.5, -7.5, -7.5 )
-shape_range = Vector2( 0, 0 )
-trigger = false
+polygon = PoolVector2Array( 7.5, -7.5, 7.5, 7.5, -7.5, 7.5, -7.5, -7.5 )
 
 
