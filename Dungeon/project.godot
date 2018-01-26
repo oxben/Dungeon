@@ -12,6 +12,7 @@ config_version=3
 
 config/name="Dungeon"
 run/main_scene="res://splash.tscn"
+config/icon="res://icon.png"
 icon="res://icon.png"
 main_scene="res://splash.tscn"
 name="Dungeon"
