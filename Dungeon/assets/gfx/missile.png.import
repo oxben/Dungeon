@@ -10,7 +10,7 @@ source_file="res://assets/gfx/missile.png"
 source_md5="72976a4ceb9d4c77bdc94a817d649ae0"
 
 dest_files=[ "res://.import/missile.png-eeec300d3ec27d8970aacd75093019c9.stex" ]
-dest_md5="ce6bf2ab0ff683dce909fc74434b0383"
+dest_md5="44826631f3d6e30d5ee7295435306a19"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
