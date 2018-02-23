@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Let's get rid of this CRLF mess
+# Doc: https://help.github.com/articles/dealing-with-line-endings/
+*.gd text eol=lf
+*.import text eol=lf
+*.tscn text eol=lf
