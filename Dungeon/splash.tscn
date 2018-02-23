@@ -22,58 +22,58 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 1.5, 2.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0, 1.5, 2.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ Vector2( 400, -40 ), Vector2( 400, 188 ) ]
+"values": [ Vector2( 400, -40 ), Vector2( 400, -40 ), Vector2( 400, 188 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Start:visibility/opacity")
+tracks/1/path = NodePath("Start:modulate")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"times": PoolRealArray( 2.5, 3.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0, 2.5, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ 0.0, 1.0 ]
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Quit:visibility/opacity")
+tracks/2/path = NodePath("Quit:modulate")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
 tracks/2/enabled = true
 tracks/2/keys = {
-"times": PoolRealArray( 2.5, 3.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0, 2.5, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ 0.0, 1.0 ]
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath("Copyright:visibility/opacity")
+tracks/3/path = NodePath("Background:modulate")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 3.5, 4 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0, 0.5, 2.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ 0.0, 1.0 ]
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 tracks/4/type = "value"
-tracks/4/path = NodePath("Background:visibility/opacity")
+tracks/4/path = NodePath("Copyright:modulate")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
 tracks/4/enabled = true
 tracks/4/keys = {
-"times": PoolRealArray( 0.5, 2.5 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0, 3.5, 4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ 0.0, 1.0 ]
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
 [node name="Splash" type="Control" index="0"]
@@ -110,10 +110,11 @@ size_flags_vertical = 2
 texture = ExtResource( 2 )
 expand = true
 stretch_mode = 0
+_sections_unfolded = [ "Visibility" ]
 
 [node name="Logo" type="Sprite" parent="." index="1"]
 
-position = Vector2( 400, 185 )
+position = Vector2( 400, 188 )
 texture = ExtResource( 3 )
 
 [node name="AnimPlayer" type="AnimationPlayer" parent="." index="2"]
@@ -125,7 +126,6 @@ playback_default_blend_time = 0.0
 playback_speed = 1.0
 anims/Intro = SubResource( 1 )
 blend_times = [  ]
-autoplay = "Intro"
 
 [node name="Start" type="TextureButton" parent="." index="3"]
 
@@ -150,6 +150,7 @@ group = null
 texture_normal = ExtResource( 4 )
 texture_hover = ExtResource( 5 )
 texture_focused = ExtResource( 5 )
+_sections_unfolded = [ "Visibility" ]
 
 [node name="Quit" type="TextureButton" parent="." index="4"]
 
@@ -174,6 +175,7 @@ group = null
 texture_normal = ExtResource( 6 )
 texture_hover = ExtResource( 7 )
 texture_focused = ExtResource( 7 )
+_sections_unfolded = [ "Visibility" ]
 
 [node name="Copyright" type="TextureButton" parent="." index="5"]
 
@@ -196,6 +198,7 @@ enabled_focus_mode = 2
 shortcut = null
 group = null
 texture_normal = ExtResource( 8 )
+_sections_unfolded = [ "Visibility" ]
 
 [connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]
 
