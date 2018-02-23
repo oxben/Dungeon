@@ -7,6 +7,8 @@ var global = null
 var level_name = ""
 var level = null
 
+var char_sheet_visible = false
+
 func _ready():
 	global = get_node("/root/global")
 	# Add level scene to current scene
@@ -22,5 +24,11 @@ func _ready():
 func _input(event):
 	if event.is_action_released("quit_game"):
 		get_tree().quit()
+	if event.is_action_released("show_char_sheet"):
+		if not char_sheet_visible:
+			get_node("AnimationPlayer").play("ShowCharSheet")
+		else:
+			get_node("AnimationPlayer").play("HideCharSheet")
+		char_sheet_visible = not char_sheet_visible
 
 
