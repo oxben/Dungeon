@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://game.gd" type="Script" id=1]
-[ext_resource path="res://assets/gfx/light-mask.png" type="Texture" id=2]
+[ext_resource path="res://assets/gfx/inventory-background.png" type="Texture" id=2]
+[ext_resource path="res://assets/gfx/inventory-grid.png" type="Texture" id=3]
+[ext_resource path="res://assets/gfx/light-mask.png" type="Texture" id=4]
 
 [sub_resource type="Animation" id=1]
 
@@ -41,7 +43,7 @@ tracks/0/keys = {
 "values": [ Vector2( -220, 100 ), Vector2( 0, 100 ) ]
 }
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 __meta__ = {
@@ -57,7 +59,7 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = -220.0
 margin_top = 100.0
-margin_bottom = 500.0
+margin_bottom = 528.0
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 0
 mouse_default_cursor_shape = 0
@@ -82,13 +84,17 @@ tabs_visible = true
 
 [node name="Attributes" type="PanelContainer" parent="CharacterSheetPanel/TabContainer" index="0"]
 
+editor/display_folded = true
+visible = false
 light_mask = 1024
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_top = 24.0
-margin_bottom = -12.0
+margin_left = 4.0
+margin_top = 32.0
+margin_right = -4.0
+margin_bottom = -4.0
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 0
 mouse_default_cursor_shape = 0
@@ -104,7 +110,7 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 213.0
+margin_right = 205.0
 margin_bottom = 357.0
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 1
@@ -120,7 +126,7 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 206.0
+margin_right = 198.0
 margin_bottom = 32.0
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 1
@@ -223,7 +229,7 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 36.0
-margin_right = 206.0
+margin_right = 198.0
 margin_bottom = 40.0
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 0
@@ -240,7 +246,7 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 44.0
-margin_right = 206.0
+margin_right = 198.0
 margin_bottom = 94.0
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 1
@@ -382,16 +388,14 @@ _sections_unfolded = [ "Size Flags", "Visibility" ]
 
 [node name="Inventory" type="PanelContainer" parent="CharacterSheetPanel/TabContainer" index="1"]
 
-visible = false
 light_mask = 1024
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 4.0
-margin_top = 24.0
+margin_top = 32.0
 margin_right = -4.0
-margin_bottom = -12.0
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 0
 mouse_default_cursor_shape = 0
@@ -399,12 +403,274 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 _sections_unfolded = [ "Rect", "Visibility" ]
 
+[node name="VBoxContainer" type="VBoxContainer" parent="CharacterSheetPanel/TabContainer/Inventory" index="0"]
+
+editor/display_folded = true
+light_mask = 1024
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 211.0
+margin_bottom = 389.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+alignment = 0
+_sections_unfolded = [ "Visibility" ]
+
+[node name="BodyPanel" type="TextureRect" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer" index="0"]
+
+editor/display_folded = true
+light_mask = 1024
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 204.0
+margin_bottom = 240.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 2 )
+stretch_mode = 0
+_sections_unfolded = [ "Rect", "Visibility" ]
+
+[node name="SlotHead" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/BodyPanel" index="0"]
+
+light_mask = 1024
+position = Vector2( 97, 37 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="SlotTorso" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/BodyPanel" index="1"]
+
+light_mask = 1024
+position = Vector2( 97, 93 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="SlotLeftArm" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/BodyPanel" index="2"]
+
+light_mask = 1024
+position = Vector2( 153, 101 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="SlotRightArm" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/BodyPanel" index="3"]
+
+light_mask = 1024
+position = Vector2( 41, 101 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="SlotLegs" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/BodyPanel" index="4"]
+
+light_mask = 1024
+position = Vector2( 97, 149 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="SlotFeet" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/BodyPanel" index="5"]
+
+light_mask = 1024
+position = Vector2( 97, 205 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="InventoryScroll" type="ScrollContainer" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer" index="1"]
+
+editor/display_folded = true
+light_mask = 1024
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 244.0
+margin_right = 204.0
+margin_bottom = 382.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 3
+scroll_horizontal_enabled = false
+scroll_horizontal = 0
+scroll_vertical_enabled = true
+scroll_vertical = 0
+_sections_unfolded = [ "Size Flags" ]
+
+[node name="TextureRect" type="TextureRect" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll" index="2"]
+
+editor/display_folded = true
+light_mask = 1024
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 192.0
+margin_bottom = 240.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 1
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+texture = ExtResource( 2 )
+stretch_mode = 0
+
+[node name="Slot-1x1" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="0"]
+
+light_mask = 1024
+position = Vector2( 25, 25 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-1x2" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="1"]
+
+light_mask = 1024
+position = Vector2( 73, 25 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-1x3" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="2"]
+
+light_mask = 1024
+position = Vector2( 121, 25 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-1x4" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="3"]
+
+light_mask = 1024
+position = Vector2( 169, 25 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-2x1" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="4"]
+
+light_mask = 1024
+position = Vector2( 25, 73 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-2x2" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="5"]
+
+light_mask = 1024
+position = Vector2( 73, 73 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-2x3" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="6"]
+
+light_mask = 1024
+position = Vector2( 121, 73 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-2x4" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="7"]
+
+light_mask = 1024
+position = Vector2( 169, 73 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-3x1" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="8"]
+
+light_mask = 1024
+position = Vector2( 25, 121 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-3x2" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="9"]
+
+light_mask = 1024
+position = Vector2( 73, 121 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-3x3" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="10"]
+
+light_mask = 1024
+position = Vector2( 121, 121 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-3x4" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="11"]
+
+light_mask = 1024
+position = Vector2( 169, 121 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-4x1" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="12"]
+
+light_mask = 1024
+position = Vector2( 25, 169 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-4x2" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="13"]
+
+light_mask = 1024
+position = Vector2( 73, 169 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-4x3" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="14"]
+
+light_mask = 1024
+position = Vector2( 121, 169 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-4x4" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="15"]
+
+light_mask = 1024
+position = Vector2( 169, 169 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-5x1" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="16"]
+
+light_mask = 1024
+position = Vector2( 25, 217 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-5x2" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="17"]
+
+light_mask = 1024
+position = Vector2( 73, 217 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-5x3" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="18"]
+
+light_mask = 1024
+position = Vector2( 121, 217 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Slot-5x4" type="Sprite" parent="CharacterSheetPanel/TabContainer/Inventory/VBoxContainer/InventoryScroll/TextureRect" index="19"]
+
+light_mask = 1024
+position = Vector2( 169, 217 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
 [node name="CharacterSheetLight2D" type="Light2D" parent="." index="1"]
 
 position = Vector2( 100, 300 )
 enabled = true
 editor_only = false
-texture = ExtResource( 2 )
+texture = ExtResource( 4 )
 offset = Vector2( 0, 0 )
 texture_scale = 2.0
 color = Color( 1, 1, 1, 1 )

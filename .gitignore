@@ -2,6 +2,10 @@
 .fscache
 .import
 
+# Temporary and backup files
+*.*~
+*.blend1
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -20,4 +24,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
