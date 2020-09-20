@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/light-mask-2.png-4c5d37cb9e9d310e3c7827db7c56ce2a.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/gfx/light-mask-2.png"
-source_md5="b09021c4e7e715c9685b26b1e6eef782"
-
 dest_files=[ "res://.import/light-mask-2.png-4c5d37cb9e9d310e3c7827db7c56ce2a.stex" ]
-dest_md5="97688e4018bab3952b21b5d244a96f87"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

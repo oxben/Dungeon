@@ -7,10 +7,7 @@ path="res://.import/chest-close-2.wav-cebae3ba696313d008e6258f4bd6b682.sample"
 [deps]
 
 source_file="res://assets/sfx/chest-close-2.wav"
-source_md5="6e618fa4fc0dc06ff8990ddf13f965da"
-
 dest_files=[ "res://.import/chest-close-2.wav-cebae3ba696313d008e6258f4bd6b682.sample" ]
-dest_md5="8e3a57c34e11dd7a168d7eda2639f607"
 
 [params]
 

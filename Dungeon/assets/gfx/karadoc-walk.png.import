@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/karadoc-walk.png-e06ad781d156645757682117d7ff1cba.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/gfx/karadoc-walk.png"
-source_md5="448621b8b24e5031b6cc8f207a45880d"
-
 dest_files=[ "res://.import/karadoc-walk.png-e06ad781d156645757682117d7ff1cba.stex" ]
-dest_md5="5e4fec57e334a54fb5dcace0cf478ef5"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

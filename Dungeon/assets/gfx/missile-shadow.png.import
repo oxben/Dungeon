@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/missile-shadow.png-e6359d2c55778e35b513704cc1dd2642.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/gfx/missile-shadow.png"
-source_md5="e48f7d5c2d3377fa43e34155e05929cb"
-
 dest_files=[ "res://.import/missile-shadow.png-e6359d2c55778e35b513704cc1dd2642.stex" ]
-dest_md5="5008af45d7f9b3bce6e42d4c53814d10"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

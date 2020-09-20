@@ -26,7 +26,7 @@ func _physics_process(delta):
 	elif gpos.y > 568:
 		get_parent().move_local_y(-4)
 
-func rotate():
+func rotate_player():
 	var rad_angle = atan2(direction.x, -direction.y)
 	set_rotation(rad_angle)
 
@@ -34,30 +34,30 @@ func _input(event):
 	if event is InputEventKey or event is InputEventJoypadButton:
 		if event.is_action_pressed("ui_left") and direction.x != -1:
 			direction.x = -1
-			rotate()
+			rotate_player()
 			get_node("Sprite").get_node("Shadow").set_position(Vector2(-2,2))
 		elif event.is_action_pressed("ui_right") and direction.x != 1:
 			direction.x = 1
-			rotate()
+			rotate_player()
 			get_node("Sprite").get_node("Shadow").set_position(Vector2(2,-2))
 		elif event.is_action_pressed("ui_up") and direction.y != -1:
 			direction.y = -1
-			rotate()
+			rotate_player()
 			get_node("Sprite").get_node("Shadow").set_position(Vector2(2,2))
 		elif event.is_action_pressed("ui_down") and direction.y != 1:
 			direction.y = 1
-			rotate()
+			rotate_player()
 			get_node("Sprite").get_node("Shadow").set_position(Vector2(-2,-2))
 		elif event.is_action_released("ui_left") or \
 			event.is_action_released("ui_right"):
 			direction.x = 0
 			if direction.y != 0:
-				rotate()
+				rotate_player()
 		elif event.is_action_released("ui_up") or \
 			event.is_action_released("ui_down"):
 			direction.y = 0
 			if direction.x != 0:
-				rotate()
+				rotate_player()
 		elif event.is_action_pressed("ui_accelerate"):
 			speed = speed * 2
 		elif event.is_action_released("ui_accelerate"):

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/red-potion-small.png-d502c8708ea8f5a3c4f0c3e4ace87972.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/gfx/red-potion-small.png"
-source_md5="c8b6991c82c7667b80a265ab298bb89a"
-
 dest_files=[ "res://.import/red-potion-small.png-d502c8708ea8f5a3c4f0c3e4ace87972.stex" ]
-dest_md5="abcea60a42ff244875c70d2f21bcec73"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

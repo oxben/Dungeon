@@ -7,10 +7,7 @@ path="res://.import/chest-open.wav-a28a4ec869bf26fdfee70eb1f44e91ac.sample"
 [deps]
 
 source_file="res://assets/sfx/chest-open.wav"
-source_md5="9762b4838dc3d0683d4ba0a9d2688aa5"
-
 dest_files=[ "res://.import/chest-open.wav-a28a4ec869bf26fdfee70eb1f44e91ac.sample" ]
-dest_md5="52f2fb5fa43b81ecedbd5db023296f9f"
 
 [params]
 

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/invader-camille.png-d3d260292888fe5dcc25f9b02645fa5f.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/gfx/invader-camille.png"
-source_md5="243eb910e4cad36869e5e6841aeaded3"
-
 dest_files=[ "res://.import/invader-camille.png-d3d260292888fe5dcc25f9b02645fa5f.stex" ]
-dest_md5="203036e17fb979360982299c05f1b645"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

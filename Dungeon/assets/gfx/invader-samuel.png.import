@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/invader-samuel.png-fada812db139fa4352d87eedee335c42.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/gfx/invader-samuel.png"
-source_md5="726e6a51e9f67038dfa93b91ad2d0f7c"
-
 dest_files=[ "res://.import/invader-samuel.png-fada812db139fa4352d87eedee335c42.stex" ]
-dest_md5="4d6dd13f25575ff690e7496f888fb38a"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

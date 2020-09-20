@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/dawrf.png-c1da51670dbe8a200d0f3c0748aeb593.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/gfx/dawrf.png"
-source_md5="dfaa6c583529b718ddd28a757d8e6dfb"
-
 dest_files=[ "res://.import/dawrf.png-c1da51670dbe8a200d0f3c0748aeb593.stex" ]
-dest_md5="7b4c62e77e7b4642cbec8e28c5a0a982"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

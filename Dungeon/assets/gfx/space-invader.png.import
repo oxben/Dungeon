@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/space-invader.png-900557541022d89e47a4209f0e631bb5.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/gfx/space-invader.png"
-source_md5="043de45caad272b3c4c19ea9f44152aa"
-
 dest_files=[ "res://.import/space-invader.png-900557541022d89e47a4209f0e631bb5.stex" ]
-dest_md5="0538b85409ae0e1a0d88f978f05763e9"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true
